@@ -8,3 +8,5 @@ Add your current runes to your "Rune Inventory" to see craft able runewords:
 Made this tool since the in game chronicle doesn't show unfinished runewords.
 
 Hope you enjoy!
+
+<a href="https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ"Donate</a>
