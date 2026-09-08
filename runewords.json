@@ -1,0 +1,1761 @@
+{
+  "items": [
+    {
+      "name": "Nadir",
+      "sockets": 2,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Nef",
+        "Tir"
+      ],
+      "level": 13,
+      "stats": "+50% Enhanced Defense\n+10 Defense\n+30 Defense vs. Missile\n+5 to Strength\n+2 to Mana after each Kill\n-33% Extra Gold from Monsters\n-3 to Light Radius\nLevel 13 Cloak of Shadows (9/9 Charges)",
+      "variable_stats": []
+    },
+    {
+      "name": "Steel",
+      "sockets": 2,
+      "bases": [
+        "Sword ",
+        "Axe ",
+        "Mace"
+      ],
+      "runes": [
+        "Tir",
+        "El"
+      ],
+      "level": 13,
+      "stats": "+25% Increased Attack Speed\n+3 to Minimum Damage (All)\n+3 to Maximum Damage (All)\n+50 to Attack Rating\n50% Chance of Open Wounds\n+2 to Mana after each Kill\n+1 to Light Radius\n+20% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Malice",
+      "sockets": 3,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Ith",
+        "El",
+        "Eth"
+      ],
+      "level": 15,
+      "stats": "+9 to Maximum Damage (All)\n-25% Target Defense\n+50 to Attack Rating\n100% Chance of Open Wounds\nPrevent Monster Heal\n-100 to Monster Defense\nPer Hit\nReplenish Life +7\n-5 + to Light Radius\n+33% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Stealth",
+      "sockets": 2,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Tal",
+        "Eth"
+      ],
+      "level": 17,
+      "stats": "+25% Faster Run/Walk\n+25% Faster Cast Rate\n+25% Faster Hit Recovery\n+6 to Dexterity\nRegenerate Mana 15%\n+15 Maximum Stamina\nPoison Resist 30%\nMagic Damage Reduced by 3",
+      "variable_stats": []
+    },
+    {
+      "name": "Leaf",
+      "sockets": 2,
+      "bases": [
+        "Staff"
+      ],
+      "runes": [
+        "Tir",
+        "Ral"
+      ],
+      "level": 19,
+      "stats": "+3 to Fire Skills\nAdds 5-30 Fire Damage\n+3 to Inferno (Sorceress only)\n+3 to Fire Bolt (Sorceress only)\n+3 to Warmth (Sorceress only)\n+2 to 2 Defense (Based on Character Level)\nCold Resist 33%\n+2 to Mana after each Kill",
+      "variable_stats": []
+    },
+    {
+      "name": "Ancients' Pledge",
+      "sockets": 3,
+      "bases": [
+        "Any Shield"
+      ],
+      "runes": [
+        "Ral",
+        "Ort",
+        "Tal"
+      ],
+      "level": 21,
+      "stats": "+50% Enhanced Defense\nCold Resist 30%\nLightning Resist 35%\nAll Resistances\n+13\nFire Resist 35%\nPoison Resist 35%\n10% Damage Taken Goes To Mana",
+      "variable_stats": []
+    },
+    {
+      "name": "Holy Thunder",
+      "sockets": 4,
+      "bases": [
+        "Scepter"
+      ],
+      "runes": [
+        "Eth",
+        "Ral",
+        "Ort",
+        "Tal"
+      ],
+      "level": 21,
+      "stats": "+10 to Maximum Damage (All)\n-25% Target Defense\nAdds 5-30 Fire Damage\nAdds 21-110 Lightning Damage\nAdds 75 Poison Damage Over 5 Seconds\n+3 to Holy Shock (Paladin only)\n+5% to Maximum Lightning Resist\nLightning Resist +60%\nLevel 7 Chain Lightning (60/60 Charges)\n+60% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Zephyr",
+      "sockets": 2,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Ort",
+        "Eth"
+      ],
+      "level": 21,
+      "stats": "7% Chance to cast level 1 Twister when struck\n+25% Faster Run/Walk\n+25% Increased Attack Speed\n-25% Target Defense\n+66 to Attack Rating\nAdds 1-50 Lightning Damage\n+25 Defense\n+33% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Pattern",
+      "sockets": 3,
+      "bases": [
+        "Hand to Hand"
+      ],
+      "runes": [
+        "Tal",
+        "Ort",
+        "Thul"
+      ],
+      "level": 23,
+      "stats": "+30% Faster Block Rate\n10% Bonus to Attack Rating\nAdds 12-32 Fire Damage\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage, Chilled for 3 seconds\nAdds 75 Poison Damage Over 5 Seconds\n+6 to Strength\n+6 to Dexterity\nAll Resistances +15\n+40 to 80% Enhanced Damage",
+      "variable_stats": [
+        "40 to 80"
+      ]
+    },
+    {
+      "name": "Edge",
+      "sockets": 3,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Tir",
+        "Tal",
+        "Amn"
+      ],
+      "level": 25,
+      "stats": "Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+320 to 380% Damage to Demons\n+280% Damage to Undead\nAdds 75 Poison Damage Over 5 Seconds\n7% Life stolen per hit\nPrevent Monster Heal\n+5 to 10 to all Attributes\n+2 to Mana after each Kill\nReduces all Vendor Prices 15%",
+      "variable_stats": [
+        "320 to 380",
+        "5 to 10"
+      ]
+    },
+    {
+      "name": "King's Grace",
+      "sockets": 3,
+      "bases": [
+        "Sword ",
+        "Scepter"
+      ],
+      "runes": [
+        "Amn",
+        "Ral",
+        "Thul"
+      ],
+      "level": 25,
+      "stats": "+150 to Attack Rating\n+100% Damage to Demons\n+100 to Attack Rating against Demons\n+50% Damage to Undead\n+100 to to Attack Rating against Undead\nAdds 5-30 Fire Damage\nAdds 3-14 Cold Damage, Chilled for 3 seconds\n7% Life stolen per hit\n+100% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Myth",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Hel",
+        "Amn",
+        "Nef"
+      ],
+      "level": 25,
+      "stats": "10% Chance to cast level 1 Taunt on striking\n3% Chance to cast level 1 Howl when struck\n+2 to Barbarian Skill Levels\n+30 Defense vs. Missile\nReplenish Life +7\n+10\nAttacker Takes Damage of 14\nRequirements -15%",
+      "variable_stats": []
+    },
+    {
+      "name": "Spirit",
+      "sockets": 4,
+      "bases": [
+        "Sword ",
+        "Any Shield"
+      ],
+      "runes": [
+        "Tal",
+        "Thul",
+        "Ort",
+        "Amn"
+      ],
+      "level": 25,
+      "stats": "+2 to All Skills\n+25 to 35% Faster Cast Rate\n+55% Faster Hit Recovery\n+250 Defense vs. Missile\n+22 to Vitality\n+89 to 112 to Mana Magic Absorb 3 to 8%\nAdds 75 Poison Damage Over 5 Seconds\nAdds 3-14 Cold Damage, Chilled for 3 seconds\nAdds 1-50 Lightning Damage\n7% Life stolen per hit\nPoison Resist +35%\nCold Resist +35%\nLightning Resist +35%\nAttacker Takes Damage of 14",
+      "variable_stats": [
+        "25 to 35",
+        "89 to 112",
+        "3 to 8"
+      ]
+    },
+    {
+      "name": "Strength",
+      "sockets": 2,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Amn",
+        "Tir"
+      ],
+      "level": 25,
+      "stats": "7% Life stolen per hit\n25% Chance of Crushing Blow\n+20 to Strength\n+10 to Vitality\n+2 to Mana after each Kill\n+35% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Honor",
+      "sockets": 5,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Amn",
+        "El",
+        "Ith",
+        "Tir",
+        "Sol"
+      ],
+      "level": 27,
+      "stats": "+1 to All Skills\n+9 to Minimum Damage (All)\n+9 to Maximum Damage (All)\n+250 to Attack Rating\n7% Life stolen per hit\n25% Deadly Strike\n+10 to Strength\nReplenish Life +7\n+2 to Mana after each Kill\n+1 to Light Radius\n+160% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Insight",
+      "sockets": 4,
+      "bases": [
+        "Polearm ",
+        "Staff ",
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Ral",
+        "Tir",
+        "Tal",
+        "Sol"
+      ],
+      "level": 27,
+      "stats": "Level 12 to 17 Meditation Aura When Equipped\n+35% Faster Cast Rate\n+9 to Minimum Damage\n180 to 250% Bonus to Attack Rating\nAdds 5-30 Fire Damage\nAdds 75 Poison Damage Over 5 Seconds\n+1 to 6 to Critical Strike\n+5 to all Attributes\n+2 to Mana after each Kill\n23% Better Chance of Getting Magic Items\n+200 to 260% Enhanced Damage",
+      "variable_stats": [
+        "12 to 17",
+        "1 to 6",
+        "200 to 260"
+      ]
+    },
+    {
+      "name": "Lore",
+      "sockets": 2,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Ort",
+        "Sol"
+      ],
+      "level": 27,
+      "stats": "+1 to All Skills\n+10 to Energy\nLightning Resist +30%\nDamage Reduced by 7\n+2 to Mana after each Kill\n+2 to Light Radius",
+      "variable_stats": []
+    },
+    {
+      "name": "Radiance",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Nef",
+        "Sol",
+        "Ith"
+      ],
+      "level": 27,
+      "stats": "+75% Enhanced Defense\n+30 Defense vs. Missile\n+10 to Vitality\n+10 to Energy\n+33 to Mana\nDamage Reduced by 7\nMagic Damage Reduced by 3\n15% Damage Taken Goes To Mana\n+5 to Light Radius",
+      "variable_stats": []
+    },
+    {
+      "name": "Authority",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Hel",
+        "Shael",
+        "Ral"
+      ],
+      "level": 29,
+      "stats": "10% Chance to cast level 15 Miasma Chains on striking\n2% Chance to cast level 10 Psychic Ward when struck\n+2 to Warlock Skill Levels\n+20% Faster Hit Recovery\nFire Resist +30%\n+40 to 60% Enhanced Damage\nRequirements -15%",
+      "variable_stats": [
+        "40 to 60"
+      ]
+    },
+    {
+      "name": "Peace",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Shael",
+        "Thul",
+        "Amn"
+      ],
+      "level": 29,
+      "stats": "2% Chance to cast level 15 Valkyrie on striking\n4% Chance to cast level 5 Slow Missiles when struck\n+2 to Amazon Skill Levels\n+20% Faster Hit Recovery\n+2 to Critical Strike\nCold Resist +30%\nAttacker Takes Damage of 14",
+      "variable_stats": []
+    },
+    {
+      "name": "Rhyme",
+      "sockets": 2,
+      "bases": [
+        "Any Shield"
+      ],
+      "runes": [
+        "Shael",
+        "Eth"
+      ],
+      "level": 29,
+      "stats": "+60% Faster Block Rate\nRegenerate Mana 15%\nAll Resistances +25\nCannot Be Frozen\n50% Extra Gold from Monsters\n25% Better Chance of Getting Magic Items",
+      "variable_stats": []
+    },
+    {
+      "name": "Black",
+      "sockets": 3,
+      "bases": [
+        "Club ",
+        "Hammer ",
+        "Mace"
+      ],
+      "runes": [
+        "Thul",
+        "Io",
+        "Nef"
+      ],
+      "level": 35,
+      "stats": "+15% Increased Attack Speed\n+200 to Attack Rating\nAdds 3-14 Cold Damage, Chilled for 3 seconds\n40% Chance of Crushing Blow\nKnockback\n+10 to Vitality\nMagic Damage Reduced by 2\nLevel 4 Corpse Explosion (12/12 Charges)\n+120% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "White",
+      "sockets": 2,
+      "bases": [
+        "Wand"
+      ],
+      "runes": [
+        "Dol",
+        "Io"
+      ],
+      "level": 35,
+      "stats": "+3 to Poison and Bone Skills (Necromancer Only)\n+20% Faster Cast Rate\n+3 to Bone\nArmor\n(Necromancer only)\n+2 to Bone Spear (Necromancer only)\n+4 to Skeleton Mastery (Necromancer only)\nHit Causes Monster to Flee 25%\n+10 to Vitality\n+13 to Mana\nMagic Damage Reduced by 4",
+      "variable_stats": []
+    },
+    {
+      "name": "Ground",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Shael",
+        "Io",
+        "Ort"
+      ],
+      "level": 35,
+      "stats": "+20% Faster Hit Recovery\n+75 to 100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +40 to 60%\n+10 to 15 Lightning Absorb",
+      "variable_stats": [
+        "75 to 100",
+        "40 to 60",
+        "10 to 15"
+      ]
+    },
+    {
+      "name": "Temper",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Shael",
+        "Io",
+        "Ral"
+      ],
+      "level": 35,
+      "stats": "+20% Faster Hit Recovery\n+75 to 100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +40 to 60%\n+10 to 15 Fire Absorb",
+      "variable_stats": [
+        "75 to 100",
+        "40 to 60",
+        "10 to 15"
+      ]
+    },
+    {
+      "name": "Hearth",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Shael",
+        "Io",
+        "Thul"
+      ],
+      "level": 35,
+      "stats": "+20% Faster Hit Recovery\n+75 to 100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +40 to 60%\n+10 to 15 Cold Absorb\nCannot Be Frozen",
+      "variable_stats": [
+        "75 to 100",
+        "40 to 60",
+        "10 to 15"
+      ]
+    },
+    {
+      "name": "Cure",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Shael",
+        "Io",
+        "Tal"
+      ],
+      "level": 35,
+      "stats": "Level 1 Cleansing Aura When Equipped\n+20% Faster Hit Recovery\n+75 to 100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +40 to 60%\nPoison Length Reduced by 50%",
+      "variable_stats": [
+        "75 to 100",
+        "40 to 60"
+      ]
+    },
+    {
+      "name": "Bulwark",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Shael",
+        "Io",
+        "Sol"
+      ],
+      "level": 35,
+      "stats": "+20% Faster Hit Recovery\n4 to 6% Life stolen per hit\n+75 to 100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nReplenish Life +7\n+30\nDamage Reduced by 7\nDamage Reduced by 10 to 15%",
+      "variable_stats": [
+        "75 to 100",
+        "10 to 15"
+      ]
+    },
+    {
+      "name": "Memory",
+      "sockets": 4,
+      "bases": [
+        "Staff"
+      ],
+      "runes": [
+        "Lum",
+        "Io",
+        "Sol",
+        "Eth"
+      ],
+      "level": 37,
+      "stats": "+3 to Sorceress Skill Levels\n+33% Faster Cast Rate\n+9 to Minimum Damage (All)\n-25% Target Defense\n+3 to Energy Shield\n(Sorceress only)\n+2 to Static Field (Sorceress only)\n+50% Enhanced Defense\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced by 7",
+      "variable_stats": []
+    },
+    {
+      "name": "Smoke",
+      "sockets": 2,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Nef",
+        "Lum"
+      ],
+      "level": 37,
+      "stats": "+20% Faster Hit Recovery\n+75% Enhanced Defense\n+280 Defense vs. Missile\n+10 to Energy\nAll Resistances +50\n-1 to Light Radius\nLevel 6 Weaken (18/18 Charges)",
+      "variable_stats": []
+    },
+    {
+      "name": "Splendor",
+      "sockets": 2,
+      "bases": [
+        "Any Shield"
+      ],
+      "runes": [
+        "Eth",
+        "Lum"
+      ],
+      "level": 37,
+      "stats": "+1 to All Skills\n+10% Faster Cast Rate\n+20% Faster Block Rate\n+60 to 100% Enhanced Defense\n+10 to Energy\nRegenerate Mana 15%\n50% Extra Gold from Monsters\n20% Better Chance of Getting Magic Items\n+3 to Light Radius",
+      "variable_stats": [
+        "60 to 100"
+      ]
+    },
+    {
+      "name": "Harmony",
+      "sockets": 4,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Tir",
+        "Ith",
+        "Sol",
+        "Ko"
+      ],
+      "level": 39,
+      "stats": "Level 10 Vigor Aura When Equipped\n+9 to Minimum Damage (All)\n+9 to Maximum Damage (All)\nAdds 55-160 Fire/Lightning/Cold Damage\n+2 to 6 to Valkyrie\n+10 to Dexterity\nRegenerate Mana 20%\n+2 to Mana after each Kill\n+2 to Light Radius\nLevel 20 Revive (25/25 Charges)\n+200 to 275% Enhanced Damage",
+      "variable_stats": [
+        "2 to 6",
+        "200 to 275"
+      ]
+    },
+    {
+      "name": "Melody",
+      "sockets": 3,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Shael",
+        "Ko",
+        "Nef"
+      ],
+      "level": 39,
+      "stats": "+3 to Bow and Crossbow Skills (Amazon Only)\n+20% Increased Attack Speed\n+300% Damage to Undead\n+3 to Critical Strike (Amazon only)\n+3 to Dodge (Amazon only)\n+3 to Slow Missiles (Amazon only)\nKnockback\n+10 to Dexterity\n+50% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Hysteria",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Shael",
+        "Ko",
+        "Eld"
+      ],
+      "level": 39,
+      "stats": "+65% Faster Run/Walk\n+40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 to Evade\n+10 to Dexterity\n50% Slower Stamina Drain\nAll Resistances +10",
+      "variable_stats": []
+    },
+    {
+      "name": "Mania",
+      "sockets": 3,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Shael",
+        "Ko",
+        "Eld"
+      ],
+      "level": 39,
+      "stats": "5% Chance to cast level 1 Quickness on striking\nLevel 1 Fanaticism Aura When Equipped\n+30% Increased Attack Speed\n+75% Damage to Undead\n+50 to to Attack Rating against Undead\n+10 to Dexterity\n+180 to 200% Enhanced Damage",
+      "variable_stats": [
+        "180 to 200"
+      ]
+    },
+    {
+      "name": "Lionheart",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Hel",
+        "Lum",
+        "Fal"
+      ],
+      "level": 41,
+      "stats": "+25 to Strength\n+15 to Dexterity\n+20 to Vitality\n+10 to Energy\n+50 to Life\nAll Resistances +30\n+20% Enhanced Damage\nRequirements -15%",
+      "variable_stats": []
+    },
+    {
+      "name": "Obedience",
+      "sockets": 5,
+      "bases": [
+        "Polearm ",
+        "Spear"
+      ],
+      "runes": [
+        "Hel",
+        "Ko",
+        "Thul",
+        "Eth",
+        "Fal"
+      ],
+      "level": 41,
+      "stats": "30% Chance to cast level 21 enchant when you Kill an Enemy\n+40% Faster Hit Recovery\n-25% Target Defense\nAdds 3-14 Cold Damage, Chilled for 3 seconds\n-25% to Enemy Fire Resistance\n40% Chance of Crushing Blow\n+200 to 300 Defense\n+10 to Strength\n+10 to Dexterity\nAll Resistances +20 to 30\n+370% Enhanced Damage\nRequirements -20%",
+      "variable_stats": [
+        "200 to 300",
+        "20 to 30"
+      ]
+    },
+    {
+      "name": "Unbending Will",
+      "sockets": 6,
+      "bases": [
+        "Sword"
+      ],
+      "runes": [
+        "Fal",
+        "Io",
+        "Ith",
+        "Eld",
+        "El",
+        "Hel"
+      ],
+      "level": 41,
+      "stats": "18% Chance to cast level 18 Taunt on striking\n+3 to Combat Skills (Barbarian Only)\n+20 to 30% Increased Attack Speed\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage to Undead\n+50 to to Attack Rating against Undead\n8 to 10% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength\n+10 to Vitality\nDamage Reduced by 8\n+1 to Light Radius\n+300 to 350% Enhanced Damage\nRequirements -20%",
+      "variable_stats": [
+        "20 to 30",
+        "300 to 350"
+      ]
+    },
+    {
+      "name": "Lawbringer",
+      "sockets": 3,
+      "bases": [
+        "Sword ",
+        "Hammer ",
+        "Scepter"
+      ],
+      "runes": [
+        "Amn",
+        "Lem",
+        "Ko"
+      ],
+      "level": 43,
+      "stats": "20% Chance to cast level 15 Decrepify on striking\nLevel 16 to 18 Sanctuary Aura When Equipped\n-50% Target Defense\nAdds 150-210 Fire Damage\nAdds 130-180 Cold Damage, Chilled for 0 seconds\n7% Life stolen per hit\nSlain Monsters Rest in Peace\n+200 to 250 Defense vs. Missile\n+10 to Dexterity\n75% Extra Gold from Monsters",
+      "variable_stats": [
+        "16 to 18",
+        "200 to 250"
+      ]
+    },
+    {
+      "name": "Passion",
+      "sockets": 4,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Dol",
+        "Ort",
+        "Eld",
+        "Lem"
+      ],
+      "level": 43,
+      "stats": "+25% Increased Attack Speed\n50 to 80% Bonus to Attack Rating\n+75% Damage to Undead\n+50 to to Attack Rating against Undead\nAdds 1-50 Lightning Damage\n+1 to Zeal\n+1 to Berserker\nHit Blinds Target +10\nHit Causes Monster to Flee 25%\n75% Extra Gold from Monsters\nLevel 3 Heart of Wolverine (12/12 Charges)\n+160 to 210% Enhanced Damage",
+      "variable_stats": [
+        "160 to 210"
+      ]
+    },
+    {
+      "name": "Voice of Reason",
+      "sockets": 4,
+      "bases": [
+        "Sword ",
+        "Mace"
+      ],
+      "runes": [
+        "Lem",
+        "Ko",
+        "El",
+        "Eld"
+      ],
+      "level": 43,
+      "stats": "18% Chance to cast level 20 Ice Blast on striking\n15% Chance to cast level 13 Frozen Orb on striking\n+50 to Attack Rating\n+220 to 350% Damage to Demons\n+355 to 375% Damage to Undead\n+50 to to Attack Rating against Undead\nAdds 100-220 Cold Damage, Chilled for 0 seconds\n-24% to Enemy Cold Resistance\n+10 to Dexterity\nCannot Be Frozen\n75% Extra Gold from Monsters\n+1 to Light Radius",
+      "variable_stats": [
+        "220 to 350",
+        "355 to 375"
+      ]
+    },
+    {
+      "name": "Treachery",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Shael",
+        "Thul",
+        "Lem"
+      ],
+      "level": 43,
+      "stats": "25% Chance to cast level 15 Venom on striking\n5% Chance to cast level 15 Fade when struck\n+2 to Assassin Skill Levels\n+45% Increased Attack Speed\n+20% Faster Hit Recovery\nCold Resist +30%\n50% Extra Gold from Monsters",
+      "variable_stats": []
+    },
+    {
+      "name": "Wealth",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Lem",
+        "Ko",
+        "Tir"
+      ],
+      "level": 43,
+      "stats": "+10 to Dexterity\n+2 to Mana after each Kill\n300% Extra Gold from Monsters\n100% Better Chance of Getting Magic Items",
+      "variable_stats": []
+    },
+    {
+      "name": "Enlightenment",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Pul",
+        "Ral",
+        "Sol"
+      ],
+      "level": 45,
+      "stats": "5% Chance to cast level 15 Fire Ball on striking\n5% Chance to cast level 15 Blaze when struck\n+2 to Sorceress Skill Levels\n+1 to Warmth\n+30% Enhanced Defense\nFire Resist +30%\nDamage Reduced by 7",
+      "variable_stats": []
+    },
+    {
+      "name": "Wisdom",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Pul",
+        "Ith",
+        "Eld"
+      ],
+      "level": 45,
+      "stats": "33% Piercing Attack\n15 to 25% Bonus to Attack Rating\n4 to 8% Mana stolen per hit\n+30% Enhanced Defense\n+10 to Energy\n15% Slower Stamina Drain\nCannot Be Frozen\n+5 to Mana after each Kill\n15% Damage Taken Goes To Mana",
+      "variable_stats": []
+    },
+    {
+      "name": "Bone",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Sol",
+        "Um",
+        "Um"
+      ],
+      "level": 47,
+      "stats": "15% Chance to cast level 10 Bone Spear on striking\n15% Chance to cast level 10 Bone Armor when struck\n+2 to Necromancer Skill Levels\n+100 to 150 to Mana\nAll Resistances +30\nDamage Reduced by 7",
+      "variable_stats": [
+        "100 to 150"
+      ]
+    },
+    {
+      "name": "Crescent Moon",
+      "sockets": 3,
+      "bases": [
+        "Axe ",
+        "Sword ",
+        "Polearm"
+      ],
+      "runes": [
+        "Shael",
+        "Um",
+        "Tir"
+      ],
+      "level": 47,
+      "stats": "7% Chance to cast level 13 Static Field on striking\n10% Chance to cast level 17 Chain Lightning on striking\n+20% Increased Attack Speed\nIgnore Target's Defense\n-35% to Enemy Lightning Resistance\n25% Chance of Open Wounds\nMagic Absorb 9 to 11%\n+2 to Mana after each Kill\nLevel 18 Summon Spirit Wolf (30/30 Charges)\n+180 to 220% Enhanced Damage",
+      "variable_stats": [
+        "9 to 11",
+        "180 to 220"
+      ]
+    },
+    {
+      "name": "Duress",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Shael",
+        "Um",
+        "Thul"
+      ],
+      "level": 47,
+      "stats": "+40% Faster Hit Recovery\nAdds 37-133 Cold Damage, Chilled for 2 seconds\n15% Chance of Crushing Blow\n33% Chance of Open Wounds\n+150 to 200% Enhanced Defense\n-20% Slower Stamina Drain\nCold Resist +30%\nAll Resistances +15\n+10 to 20% Enhanced Damage",
+      "variable_stats": [
+        "150 to 200",
+        "10 to 20"
+      ]
+    },
+    {
+      "name": "Gloom",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Fal",
+        "Um",
+        "Pul"
+      ],
+      "level": 47,
+      "stats": "15% Chance to cast level 3 Dim Vision when struck\n+10% Faster Hit Recovery\n+200 to 260% Enhanced Defense\n+10 to Strength\nAll Resistances +45\nHalf Freeze Duration\n5% Damage Taken Goes To Mana\n-3 to Light Radius",
+      "variable_stats": [
+        "200 to 260"
+      ]
+    },
+    {
+      "name": "Stone",
+      "sockets": 4,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Shael",
+        "Um",
+        "Pul",
+        "Lum"
+      ],
+      "level": 47,
+      "stats": "+60% Faster Hit Recovery\n+250 to 290% Enhanced Defense\n+300 Defense vs. Missile\n+16 to Strength\n+16 to Vitality\n+10 to Energy\nAll Resistances +15\nLevel 16 Clay Golem (16/16 Charges)\nLevel 16 Molten Boulder (80/80 Charges)",
+      "variable_stats": [
+        "250 to 290"
+      ]
+    },
+    {
+      "name": "Oath",
+      "sockets": 4,
+      "bases": [
+        "Sword ",
+        "Axe ",
+        "Mace"
+      ],
+      "runes": [
+        "Shael",
+        "Pul",
+        "Mal",
+        "Lum"
+      ],
+      "level": 49,
+      "stats": "30% Chance to cast level 20 Bone Spirit on striking\n+50% Increased Attack Speed\n+75% Damage to Demons\n+100 to Attack Rating against Demons\nPrevent Monster Heal\n+10 to Energy Magic Absorb 10 to 15%\nLevel 17 Iron Golem (14/14 Charges)\nLevel 16 Heart of Wolverine (20/20 Charges)\n+210 to 340% Enhanced Damage\nIndestructible",
+      "variable_stats": [
+        "10 to 15",
+        "210 to 340"
+      ]
+    },
+    {
+      "name": "Prudence",
+      "sockets": 2,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Mal",
+        "Tir"
+      ],
+      "level": 49,
+      "stats": "+25% Faster Hit Recovery\n+140 to 170% Enhanced Defense\nAll Resistances +25 to 35\nDamage Reduced by 3\nMagic Damage Reduced by 17\n+2 to Mana after each Kill\n+1 to Light Radius\nRepairs 1 durability in 25 seconds",
+      "variable_stats": [
+        "140 to 170",
+        "25 to 35"
+      ]
+    },
+    {
+      "name": "Rain",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Ort",
+        "Mal",
+        "Ith"
+      ],
+      "level": 49,
+      "stats": "5% Chance to cast level 15 Twister on striking\n5% Chance to cast level 15 Cyclone\nArmor when struck\n+2 to Druid Skill Levels\n+100 to 150 to Mana\nLightning Resist +30%\nMagic Damage Reduced by 7\n15% Damage Taken Goes To Mana",
+      "variable_stats": [
+        "100 to 150"
+      ]
+    },
+    {
+      "name": "Sanctuary",
+      "sockets": 3,
+      "bases": [
+        "Any Shield"
+      ],
+      "runes": [
+        "Ko",
+        "Ko",
+        "Mal"
+      ],
+      "level": 49,
+      "stats": "+20% Faster Hit Recovery\n40% Increased Chance of Blocking\n+130 to 160% Enhanced Defense\n+250 Defense vs. Missile\n+20 to Dexterity\nAll Resistances +50 to 70\nMagic Damage Reduced by 7\nLevel 12 Slow Missiles (60/60 Charges)",
+      "variable_stats": [
+        "130 to 160",
+        "50 to 70"
+      ]
+    },
+    {
+      "name": "Venom",
+      "sockets": 3,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Tal",
+        "Dol",
+        "Mal"
+      ],
+      "level": 49,
+      "stats": "Ignore Target's Defense\nAdds 213 Poison Damage Over 7 Seconds\nAdds 75 Poison Damage Over 5 Seconds\n7% Mana stolen per hit\nPrevent Monster Heal\nHit Causes Monster to Flee 25%\nLevel 15 Poison Explosion (27/27 Charges)\nLevel 13 Poison Nova (11/11 Charges)",
+      "variable_stats": []
+    },
+    {
+      "name": "Delirium",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Lem",
+        "Ist",
+        "Io"
+      ],
+      "level": 51,
+      "stats": "11% Chance to cast level 18 Confuse on striking\n14% Chance to cast  13 Terror when struck\n6% Chance to cast level 14 Mind Blast when struck\n1% Chance to cast level 50 Delerium Change when struck\n+2 to All Skills\n+261 Defense\n+10 to Vitality\n50% Extra Gold from Monsters\n25% Better Chance of Getting Magic Items\nLevel 17 Attract (60/60 Charges)",
+      "variable_stats": []
+    },
+    {
+      "name": "Coven",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Ist",
+        "Ral",
+        "Io"
+      ],
+      "level": 51,
+      "stats": "5% Chance to cast level 10 Sigil Lethargy when struck\n+1 to All Skills\n+20% Faster Cast Rate\n+30 to 50% Enhanced Defense\n+10 to Vitality\nFire Resist 30%\n+1 to 5 Life after each Kill 26 to 40% Better Chance of Getting Magic Items",
+      "variable_stats": [
+        "30 to 50",
+        "1 to 5"
+      ]
+    },
+    {
+      "name": "Kingslayer",
+      "sockets": 4,
+      "bases": [
+        "Sword ",
+        "Axe"
+      ],
+      "runes": [
+        "Mal",
+        "Um",
+        "Gul",
+        "Fal"
+      ],
+      "level": 53,
+      "stats": "+30% Increased Attack Speed\n-25% Target Defense\n20% Bonus to Attack Rating\n33% Chance of Crushing Blow\n50% Chance of Open Wounds\n+1 to Vengeance\nPrevent Monster Heal\n+10 to Strength\n40% Extra Gold from Monsters\n+230 to 270% Enhanced Damage",
+      "variable_stats": [
+        "230 to 270"
+      ]
+    },
+    {
+      "name": "Principle",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Ral",
+        "Gul",
+        "Eld"
+      ],
+      "level": 53,
+      "stats": "100% Chance to cast level 5 Holy Bolt on striking\n+2 to Paladin Skill Levels\n+50% Damage to Undead\n+100 to 150 to Life\n15% Slower Stamina Drain\n+5% to Maximum Poison Resist\nFire Resist 30%",
+      "variable_stats": [
+        "100 to 150"
+      ]
+    },
+    {
+      "name": "Rift",
+      "sockets": 4,
+      "bases": [
+        "Polearm ",
+        "Scepter"
+      ],
+      "runes": [
+        "Hel",
+        "Ko",
+        "Lem",
+        "Gul"
+      ],
+      "level": 53,
+      "stats": "16% Chance to cast level 21 Frozen Orb on attack\n20% Chance to cast level 16 Tornado on striking\n20% Bonus to Attack Rating\nAdds 160-250 Magic Damage\nAdds 60-180 Fire Damage\n+5 to 10 to all Attributes\n+10 to Dexterity\n38% Damage Taken Goes To Mana\n75% Extra Gold from Monsters\nLevel 15 Iron Maiden (40/40 Charges)\nRequirements -20%",
+      "variable_stats": [
+        "5 to 10"
+      ]
+    },
+    {
+      "name": "Mosaic",
+      "sockets": 3,
+      "bases": [
+        "Hand to Hand"
+      ],
+      "runes": [
+        "Mal",
+        "Gul",
+        "Amn"
+      ],
+      "level": 53,
+      "stats": "+50% chance for finishing moves to not consume charges\n+2 to Martial Arts Skills (Assassin Only)\n+20% Increased Attack Speed\n20% Bonus to Attack Rating\n7% Life stolen per hit\n+8 to 15% to Fire Skill Damage\n+8 to 15% to Lightning Skill Damage\n+8 to 15% to Cold Skill Damage\nPrevent Monster Heal\n+200 to 250% Enhanced Damage",
+      "variable_stats": [
+        "8 to 15",
+        "200 to 250"
+      ]
+    },
+    {
+      "name": "Vigilance",
+      "sockets": 2,
+      "bases": [
+        "Grimoire ",
+        "Any Shield ",
+        "Voodoo Heads ",
+        "Auric Shields"
+      ],
+      "runes": [
+        "Dol",
+        "Gul"
+      ],
+      "level": 53,
+      "stats": "5% Chance to cast level 10 Ring of Fire when struck\n+10% Faster Run/Walk\n+30% Faster Block Rate\n+75 to 100% Enhanced Defense\n+20 to 40 to Life\nReplenish Life +7\n+20 to 40 to Mana\n+5% to Maximum Poison Resist\nAll Resistances +25 to 35",
+      "variable_stats": [
+        "75 to 100",
+        "20 to 40",
+        "25 to 35"
+      ]
+    },
+    {
+      "name": "Death",
+      "sockets": 5,
+      "bases": [
+        "Sword ",
+        "Axe"
+      ],
+      "runes": [
+        "Hel",
+        "El",
+        "Vex",
+        "Ort",
+        "Gul"
+      ],
+      "level": 55,
+      "stats": "25% Chance to cast level 18 Glacial Spike on attack\n100% Chance to cast level 44 Chain Lightning when you Die\n20% Bonus to Attack Rating\n+50 to Attack Rating\nAdds 1-50 Lightning Damage\n7% Mana stolen per hit\n50% Chance of Crushing Blow\n0.5% Deadly Strike (Based on Character Level)\n+1 to Light Radius\nLevel 22 Blood Golem (15/15 Charges)\n+300 to 385% Enhanced Damage\nIndestructible\nRequirements -20%",
+      "variable_stats": [
+        "300 to 385"
+      ]
+    },
+    {
+      "name": "Flickering Flame",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Nef",
+        "Pul",
+        "Vex"
+      ],
+      "level": 55,
+      "stats": "Level 4 to 8 Resist Fire Aura When Equipped\n+3 to Fire Skills\n-10 to 15% to Enemy Fire Resistance\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50 to 75 to Mana\n+5% to Maximum Fire Resist\nHalf Freeze Duration\nPoison Length Reduced by 50%",
+      "variable_stats": [
+        "4 to 8",
+        "10 to 15",
+        "50 to 75"
+      ]
+    },
+    {
+      "name": "Heart of the Oak",
+      "sockets": 4,
+      "bases": [
+        "Staff ",
+        "Mace"
+      ],
+      "runes": [
+        "Ko",
+        "Vex",
+        "Pul",
+        "Thul"
+      ],
+      "level": 55,
+      "stats": "+3 to All Skills\n+40% Faster Cast Rate\n+75% Damage to Demons\n+100 to Attack Rating against Demons\nAdds 3-14 Cold Damage, Chilled for 3 seconds\n7% Mana stolen per hit\n+10 to Dexterity\nReplenish Life +7\n+20\nIncrease Maximum Mana 15%\nAll Resistances +30 to 40\nLevel 4 Oak Sage (25/25 Charges)\nLevel 14 Raven (60/60 Charges)",
+      "variable_stats": [
+        "30 to 40"
+      ]
+    },
+    {
+      "name": "Silence",
+      "sockets": 6,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Dol",
+        "Eld",
+        "Hel",
+        "Ist",
+        "Tir",
+        "Vex"
+      ],
+      "level": 55,
+      "stats": "+2 to All Skills\n+20% Increased Attack Speed\n+20% Faster Hit Recovery\n+75% Damage to Undead\n+50 to to Attack Rating against Undead\n11% Mana stolen per hit\nHit Blinds Target +33\nHit Causes Monster to Flee 25%\nAll Resistances +75\n+2 to Mana after each Kill\n30% Better Chance of Getting Magic Items\n+200% Enhanced Damage\nRequirements -20%",
+      "variable_stats": []
+    },
+    {
+      "name": "Call to Arms",
+      "sockets": 5,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Amn",
+        "Ral",
+        "Mal",
+        "Ist",
+        "Ohm"
+      ],
+      "level": 57,
+      "stats": "+1 to All Skills\n+40% Increased Attack Speed\nAdds 5-30 Fire Damage\n7% Life stolen per hit\n+2 to 6 to Battle Command\n+1 to 6 to Battle Orders\n+1 to 4 to Battle Cry\nPrevent Monster Heal\nReplenish Life +7\n30% Better Chance of Getting Magic Items\n+250 to 290% Enhanced Damage",
+      "variable_stats": [
+        "2 to 6",
+        "250 to 290"
+      ]
+    },
+    {
+      "name": "Chaos",
+      "sockets": 3,
+      "bases": [
+        "Hand to Hand"
+      ],
+      "runes": [
+        "Fal",
+        "Ohm",
+        "Um"
+      ],
+      "level": 57,
+      "stats": "9% Chance to cast level 11 Frozen Orb on striking\n11% Chance to cast level 9 Charged Bolt on striking\n+35% Increased Attack Speed\nAdds 216-471 Magic Damage\n25% Chance of Open Wounds\n+1 to Whirlwind\n+10 to Strength\n+15 Life after each Demon Kill\n+290 to 340% Enhanced Damage",
+      "variable_stats": [
+        "290 to 340"
+      ]
+    },
+    {
+      "name": "Exile",
+      "sockets": 4,
+      "bases": [
+        "Paladin Item"
+      ],
+      "runes": [
+        "Vex",
+        "Ohm",
+        "Ist",
+        "Dol"
+      ],
+      "level": 57,
+      "stats": "15% Chance to cast level 5 Life Tap on striking\nLevel 13 to 16 Defiance Aura When Equipped\n+2 to Offensive Auras Skills (Paladin Only)\n+30% Faster Block Rate\nFreezes Target\n+220 to 260% Enhanced Defense\nReplenish Life +7\n+5% to Maximum Cold Resist\n5% to Maximum Fire Resist\n25% Better Chance of Getting Magic Items\nRepairs 1 durability in 25 seconds",
+      "variable_stats": [
+        "13 to 16",
+        "220 to 260"
+      ]
+    },
+    {
+      "name": "Ritual",
+      "sockets": 3,
+      "bases": [
+        "Knife"
+      ],
+      "runes": [
+        "Amn",
+        "Shael",
+        "Ohm"
+      ],
+      "level": 57,
+      "stats": "13% Chance to cast level 1 Sigil Death when struck\n+40% Increased Attack Speed\n200 to 260% Bonus to Attack Rating\n+150 to 250% Damage to Demons\n7% Life stolen per hit\nSlain Monsters Rest in Peace\n+3 to 5 Life after each Kill\n+250 to 320% Enhanced Damage",
+      "variable_stats": [
+        "150 to 250",
+        "3 to 5",
+        "250 to 320"
+      ]
+    },
+    {
+      "name": "Fortitude",
+      "sockets": 4,
+      "bases": [
+        "Weapon ",
+        "Armor"
+      ],
+      "runes": [
+        "El",
+        "Sol",
+        "Dol",
+        "Lo"
+      ],
+      "level": 59,
+      "stats": "20% Chance to cast level 15 Chilling when struck\n+25% Faster Cast Rate\n+200% Enhanced Defense\n+1 to 1.5 to Life (Based on Character Level)\nAll Resistances +25 to 30\n12% Damage Taken Goes To Mana\n+300% Enhanced Damage\n+1 to Light Radius\n+50 to Attack Rating\n+9 to Minimum Damage\nHit Causes Monster to Flee 25%\n20% Deadly Strike\n+1 to Light Radius\n+15 Defense\nDamage Reduced by 7\nReplenish Life +7\n+5% to Maximum Lightning Resist",
+      "variable_stats": [
+        "25 to 30"
+      ]
+    },
+    {
+      "name": "Grief",
+      "sockets": 5,
+      "bases": [
+        "Sword ",
+        "Axe"
+      ],
+      "runes": [
+        "Eth",
+        "Tir",
+        "Lo",
+        "Mal",
+        "Ral"
+      ],
+      "level": 59,
+      "stats": "35% Chance to cast level 15 Venom on striking\n+30 to 40% Increased Attack Speed\nDamage\n+340 to 400\nIgnore Target's Defense\n-25% Target Defense\n+1.875% Damage to Demons (Based on Character Level)\nAdds 5-30 Fire Damage\n-20 to 25% to Enemy Poison Resistance\n20% Deadly Strike\nPrevent Monster Heal\n+10 to 15 Life after each Kill\n+2 to Mana after each Kill",
+      "variable_stats": [
+        "30 to 40",
+        "340 to 400",
+        "20 to 25",
+        "10 to 15"
+      ]
+    },
+    {
+      "name": "Bramble",
+      "sockets": 4,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Ral",
+        "Ohm",
+        "Sur",
+        "Eth"
+      ],
+      "level": 61,
+      "stats": "Level 15 to 21 Thorns Aura When Equipped\n+50% Faster Hit Recovery\n+25 to 50% to Poison Skill Damage\n+300 Defense\nIncrease Maximum Mana 5%\nRegenerate Mana 15%\n+5% to Maximum\nCold Resist\nFire Resist 30%\nPoison Resist 100%\n+13 Life after each Kill\nLevel 13 Spirit of Barbs (33/33 Charges)",
+      "variable_stats": [
+        "15 to 21",
+        "25 to 50"
+      ]
+    },
+    {
+      "name": "Dragon",
+      "sockets": 3,
+      "bases": [
+        "Armor ",
+        "Any Shield"
+      ],
+      "runes": [
+        "Sur",
+        "Lo",
+        "Sol"
+      ],
+      "level": 61,
+      "stats": "12% Chance to cast level 15 Hydra on striking\n20% Chance to cast level 18 Venom when struck\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3 to 5 to all Attributes\n+0.375 to Strength (Based on Character Level)\nIncrease Maximum Mana 5%\nDamage Reduced by 7\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7",
+      "variable_stats": [
+        "3 to 5"
+      ]
+    },
+    {
+      "name": "Wind",
+      "sockets": 2,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Sur",
+        "El"
+      ],
+      "level": 61,
+      "stats": "10% Chance to cast level 9 Tornado on striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n-50% Target Defense\n+50 to Attack\nHit Blinds Target\n+1 to Light Radius\nLevel 13 Twister (127/127 Charges)\n+120 to 160% Enhanced Damage",
+      "variable_stats": [
+        "120 to 160"
+      ]
+    },
+    {
+      "name": "Beast",
+      "sockets": 5,
+      "bases": [
+        "Axe ",
+        "Scepter ",
+        "Hammer"
+      ],
+      "runes": [
+        "Ber",
+        "Tir",
+        "Um",
+        "Mal",
+        "Lum"
+      ],
+      "level": 63,
+      "stats": "Level 9 Fanaticism Aura When Equipped\n+40% Increased Attack Speed\n20% Chance of Crushing Blow\n25% Chance of Open Wounds\n+3 to Wearbear\n+3 to Shape Shifting\nPrevent Monster Heal\n+25 to 40 to Strength\n+10 to Energy\n+2 to Mana after each Kill\nLevel 13 Summon Grizzly (5/5 Charges)\n+240 to 270% Enhanced Damage",
+      "variable_stats": [
+        "25 to 40",
+        "240 to 270"
+      ]
+    },
+    {
+      "name": "Chains of Honor",
+      "sockets": 4,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Dol",
+        "Um",
+        "Ber",
+        "Ist"
+      ],
+      "level": 63,
+      "stats": "+2 to All Skills\n+200% Damage to Demons\n+100% Damage to Undead\n8% Life stolen per hit\n+70% Enhanced Defense\n+20 to Strength\nReplenish Life +7\nAll Resistances +65\nDamage Reduced by 8%\n25% Better Chance of Getting Magic Items",
+      "variable_stats": []
+    },
+    {
+      "name": "Eternity",
+      "sockets": 5,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Amn",
+        "Ber",
+        "Ist",
+        "Sol",
+        "Sur"
+      ],
+      "level": 63,
+      "stats": "+9 to Minimum Damage (All)\n7% Life stolen per hit\n20% Chance of Crushing Blow\nHit Blinds Target +1 Slows Target by 33%\nReplenish Life +7\n+16\nRegenerate Mana 16%\nCannot Be Frozen\n30% Better Chance of Getting Magic Items\nLevel 8 Revive (88/88 Charges)\n+260 to 310% Enhanced Damage\nIndestructible",
+      "variable_stats": [
+        "260 to 310"
+      ]
+    },
+    {
+      "name": "Infinity",
+      "sockets": 4,
+      "bases": [
+        "Polearm ",
+        "Spear"
+      ],
+      "runes": [
+        "Ber",
+        "Mal",
+        "Ber",
+        "Ist"
+      ],
+      "level": 63,
+      "stats": "50% Chance to cast level 20 Chain Lightning when you Kill an Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n-45 to 55% to Enemy Lightning Resistance\n40% Chance of Crushing Blow\nPrevent Monster Heal\n+0.5 to Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone\nArmor\n(30/30 Charges)\n+255 to 325% Enhanced Damage",
+      "variable_stats": [
+        "45 to 55",
+        "255 to 325"
+      ]
+    },
+    {
+      "name": "Wrath",
+      "sockets": 4,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Pul",
+        "Lum",
+        "Ber",
+        "Mal"
+      ],
+      "level": 63,
+      "stats": "5% Chance to cast level 10 Life Tap on striking\n30% Chance to cast level 1 Decrepify on striking\n+375% Damage to Demons\n+100 to Attack Rating against Demons\n+250 to 300% Damage to Undead\nAdds 85-120 Magic Damage\nAdds 41-240 Lightning Damage\n20% Chance of Crushing Blow\nPrevent Monster Heal\n+10 to Energy\nCannot Be Frozen",
+      "variable_stats": [
+        "250 to 300"
+      ]
+    },
+    {
+      "name": "Brand",
+      "sockets": 4,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Jah",
+        "Lo",
+        "Mal",
+        "Gul"
+      ],
+      "level": 65,
+      "stats": "100% Chance to cast level 18 Bone Spear on striking\n35% Chance to cast level 14 Amplify Damage when struck\nFires Explosive Arrows or Bolts (Level 15)\nIgnore Target's Defense\n20% Bonus to Attack Rating\n+280 to 330% Damage to Demons\n20% Deadly Strike\nPrevent Monster Heal\nKnockback\n+260 to 340% Enhanced Damage",
+      "variable_stats": [
+        "280 to 330",
+        "260 to 340"
+      ]
+    },
+    {
+      "name": "Destruction",
+      "sockets": 5,
+      "bases": [
+        "Polearm ",
+        "Sword"
+      ],
+      "runes": [
+        "Vex",
+        "Lo",
+        "Ber",
+        "Jah",
+        "Ko"
+      ],
+      "level": 65,
+      "stats": "15% Chance to cast level 22 Nova on attack\n100% Chance to cast level 45 Meteor when you Die\n5% Chance to cast level 23 Molten Boulder on striking\n23% Chance to cast level 12 Volcano on striking\nIgnore Target's Defense\nAdds 100-180 Magic Damage\n7% Mana stolen per hit\n20% Chance of Crushing Blow\n20% Deadly Strike\nPrevent Monster Heal\n+10 to Dexterity\n+350% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Dream",
+      "sockets": 3,
+      "bases": [
+        "Helm ",
+        "Any Shield"
+      ],
+      "runes": [
+        "Io",
+        "Jah",
+        "Pul"
+      ],
+      "level": 65,
+      "stats": "10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+20 to 30% Faster Hit Recovery\n+150 to 220 Defense\n+0.625 to Mana (Based on Character Level)\nAll Resistances\n+5 to 20 12 to 25% Better Chance of Getting Magic Items\nArmor\n+10 to Vitality\nIncrease Maximum Life 5%\n+30% Enhanced Defense\nShields\n+10 to Vitality\n+50 to Life\n+30% Enhanced Defense",
+      "variable_stats": [
+        "20 to 30",
+        "150 to 220",
+        "5 to 20"
+      ]
+    },
+    {
+      "name": "Enigma",
+      "sockets": 3,
+      "bases": [
+        "Armor"
+      ],
+      "runes": [
+        "Jah",
+        "Ith",
+        "Ber"
+      ],
+      "level": 65,
+      "stats": "+2 to All Skills\n+45% Faster Run/Walk\n+1 to Teleport\n+750 to 775 Defense\n+0.75 to Strength (Based on Character Level)\nIncrease Maximum Life 5%\nDamage Reduced by 8%\n+14 Life after each Kill\n15% Damage Taken Goes To Mana\n1% Better Chance of Getting Magic Items (Based on Character Level)",
+      "variable_stats": [
+        "750 to 775"
+      ]
+    },
+    {
+      "name": "Faith",
+      "sockets": 4,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Ohm",
+        "Jah",
+        "Lem",
+        "Eld"
+      ],
+      "level": 65,
+      "stats": "Level 12 to 15 Fanaticism Aura When Equipped\n+1 to 2 to All Skills\nIgnore Target's Defense\n300% Bonus to Attack Rating\n+75% Damage to Undead\n+50 to to Attack Rating against Undead\nAdds 120 Fire Damage\nAll Resistances +15\nReanimate As: [Returned]\n75% Extra Gold from Monsters\n+330% Enhanced Damage",
+      "variable_stats": [
+        "12 to 15",
+        "1 to 2"
+      ]
+    },
+    {
+      "name": "Famine",
+      "sockets": 4,
+      "bases": [
+        "Axe ",
+        "Hammer"
+      ],
+      "runes": [
+        "Fal",
+        "Ohm",
+        "Ort",
+        "Jah"
+      ],
+      "level": 65,
+      "stats": "+30% Increased Attack Speed\nIgnore Target's Defense\nAdds 180-200 Magic Damage\nAdds 50-200 Fire/Lightning/Cold Damage\nAdds 1-50 Lightning Damage\n12% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength\n+320 to 370% Enhanced Damage",
+      "variable_stats": [
+        "320 to 370"
+      ]
+    },
+    {
+      "name": "Fury",
+      "sockets": 3,
+      "bases": [
+        "Melee Weapon"
+      ],
+      "runes": [
+        "Jah",
+        "Gul",
+        "Eth"
+      ],
+      "level": 65,
+      "stats": "+40% Increased Attack Speed\nIgnore Target's Defense\n-25% Target Defense\n20% Bonus to Attack Rating\n6% Life stolen per hit\n33% Deadly Strike\n66% Chance of Open Wounds\n+5 to Frenzy (Barbarian only)\nPrevent Monster Heal\n+209% Enhanced Damage",
+      "variable_stats": []
+    },
+    {
+      "name": "Ice",
+      "sockets": 4,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Amn",
+        "Shael",
+        "Jah",
+        "Lo"
+      ],
+      "level": 65,
+      "stats": "25% Chance to cast level 22 Frost Nova on striking\n100% Chance to cast level 40 Blizzard when you Level-Up\nLevel 18 Holy Freeze Aura When Equipped\n+20% Increased Attack Speed\nIgnore Target's Defense\n7% Life stolen per hit\n+25 to 30% to Cold Skill Damage\n-20% to Enemy Cold Resistance\n20% Deadly Strike\n3.125% Extra Gold from Monsters (Based on Character Level)\n+140 to 210% Enhanced Damage",
+      "variable_stats": [
+        "25 to 30",
+        "140 to 210"
+      ]
+    },
+    {
+      "name": "Last Wish",
+      "sockets": 6,
+      "bases": [
+        "Sword ",
+        "Hammer ",
+        "Axe"
+      ],
+      "runes": [
+        "Jah",
+        "Mal",
+        "Jah",
+        "Sur",
+        "Jah",
+        "Ber"
+      ],
+      "level": 65,
+      "stats": "20% Chance to cast level 20 Charged Bolt on attack\n10% Chance to cast level 18 Life Tap on striking\n6% Chance to cast level 11 Fade when struck\nLevel 17 Might Aura When Equipped\nIgnore Target's Defense\n60 to 70% Chance of Crushing Blow\nPrevent Monster Heal\nHit Blinds Target +1\n0.5% Better Chance of Getting Magic Items (Based on Character Level)\n+330 to 375% Enhanced Damage",
+      "variable_stats": [
+        "330 to 375"
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "sockets": 4,
+      "bases": [
+        "Weapon ",
+        "Any Shield"
+      ],
+      "runes": [
+        "Vex",
+        "Vex",
+        "Lo",
+        "Jah"
+      ],
+      "level": 65,
+      "stats": "40% Chance to cast level 22 Firestorm on striking\n100% Chance to cast level 40 Blaze when you Level-Up\nLevel 10 to 15 Redemption Aura When Equipped\n-28% to Enemy Fire Resistance\n+350 to 400 Defense vs. Missile Fire Absorb 15 to 21%\n+350 to 400% Enhanced Damage\nWeapons\n7% Mana stolen per hit\n7% Mana stolen per hit\n20% Deadly Strike\nIgnore Target's Defense\nShields\n+5% to Maximum\nFire Resist 5% to Maximum\nFire Resist 5% to Maximum\nLightning Resist 50 to Life",
+      "variable_stats": [
+        "10 to 15",
+        "350 to 400",
+        "15 to 21"
+      ]
+    },
+    {
+      "name": "Doom",
+      "sockets": 5,
+      "bases": [
+        "Axe ",
+        "Polearm ",
+        "Hammer"
+      ],
+      "runes": [
+        "Hel",
+        "Ohm",
+        "Um",
+        "Lo",
+        "Cham"
+      ],
+      "level": 67,
+      "stats": "5% Chance to cast level 18 Volcano on striking\nLevel 12 Holy Freeze Aura When Equipped\n+2 to All Skills\n+45% Increased Attack Speed\n-40 to 60% to Enemy Cold Resistance\n20% Deadly Strike\n25% Chance of Open Wounds\nPrevent Monster Heal\nFreezes Target +3\n+330 to 370% Enhanced Damage\nRequirements -20%",
+      "variable_stats": [
+        "40 to 60",
+        "330 to 370"
+      ]
+    },
+    {
+      "name": "Hand of Justice",
+      "sockets": 4,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Sur",
+        "Cham",
+        "Amn",
+        "Lo"
+      ],
+      "level": 67,
+      "stats": "100% Chance to cast level 48 Meteor when you Die\n100% Chance to cast level 36 Blaze when you Level-Up\nLevel 16 Holy Fire Aura When Equipped\n+33% Increased Attack Speed\nIgnore Target's Defense\n7% Life stolen per hit\n-20% to Enemy Fire Resistance\n20% Deadly Strike\nHit Blinds Target +1\nFreezes Target +3\n+280 to 330% Enhanced Damage",
+      "variable_stats": [
+        "280 to 330"
+      ]
+    },
+    {
+      "name": "Mist",
+      "sockets": 5,
+      "bases": [
+        "Missile Weapon"
+      ],
+      "runes": [
+        "Cham",
+        "Shael",
+        "Gul",
+        "Thul",
+        "Ith"
+      ],
+      "level": 67,
+      "stats": "Level 8 to 12 Concentration Aura When Equipped\n+3 to All Skills\n+20% Increased Attack Speed\n100% Piercing Attack\n+9 to Maximum Damage (All)\n20% Bonus to Attack Rating\nAdds 3-14 Cold Damage, Chilled for 3 seconds\nFreezes Target +3\n+24 to Vitality\nAll Resistances\n+40\n+325 to 375% Enhanced Damage",
+      "variable_stats": [
+        "8 to 12",
+        "325 to 375"
+      ]
+    },
+    {
+      "name": "Plague",
+      "sockets": 3,
+      "bases": [
+        "Sword ",
+        "Knife ",
+        "Hand to Hand"
+      ],
+      "runes": [
+        "Cham",
+        "Shael",
+        "Um"
+      ],
+      "level": 67,
+      "stats": "25% Chance to cast level 15 Poison Nova on striking\n20% Chance to cast level 12 Lower Resist when struck\nLevel 13 to 17 Cleansing Aura When Equipped\n+1 to 2 to All Skills\n+20% Increased Attack Speed\n-23% to Enemy Poison Resistance\n0.375% Deadly Strike (Based on Character Level)\n25% Chance of Open Wounds\nFreezes Target +3\n+220 to 320% Enhanced Damage",
+      "variable_stats": [
+        "13 to 17",
+        "220 to 320"
+      ]
+    },
+    {
+      "name": "Pride",
+      "sockets": 4,
+      "bases": [
+        "Polearm ",
+        "Spear"
+      ],
+      "runes": [
+        "Cham",
+        "Sur",
+        "Io",
+        "Lo"
+      ],
+      "level": 67,
+      "stats": "25% Chance to cast level 17 Fire Wall when struck\nLevel 16 to 20 Concentration Aura When Equipped\n260 to 300% Bonus to Attack Rating\n+1% Damage to Demons (Based on Character Level)\nAdds 50-280 Lightning Damage\n20% Deadly Strike\nHit Blinds Target +1\nFreezes Target +3\n+10 to Vitality\nReplenish Life +8\n1.875% Extra Gold from Monsters (Based on Character Level)",
+      "variable_stats": [
+        "16 to 20"
+      ]
+    },
+    {
+      "name": "Metamorphosis",
+      "sockets": 3,
+      "bases": [
+        "Helm"
+      ],
+      "runes": [
+        "Io",
+        "Cham",
+        "Fal"
+      ],
+      "level": 67,
+      "stats": "100% Chance to cast level 1 Mark of the Bear on striking\n100% Chance to cast level 1 Mark of the Wolf on striking\n+5 to Shapeshifting Skills (Druid Only)\n25% Chance of Crushing Blow\n+50 to 80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances\n+10\nCannot Be Frozen",
+      "variable_stats": [
+        "50 to 80"
+      ]
+    },
+    {
+      "name": "Breath of the Dying",
+      "sockets": 6,
+      "bases": [
+        "Weapon"
+      ],
+      "runes": [
+        "Vex",
+        "Hel",
+        "El",
+        "Eld",
+        "Zod",
+        "Eth"
+      ],
+      "level": 69,
+      "stats": "50% Chance to cast level 20 Poison Nova when you Kill an Enemy\n+60% Increased Attack Speed\n-25% Target Defense\n+50 to Attack Rating\n+200% Damage to Undead\n+50 to to Attack Rating against Undead\n7% Mana stolen per hit\n12 to 15% Life stolen per hit\nPrevent Monster Heal\n+30 to all Attributes\n+1 to Light Radius\n+350 to 400% Enhanced Damage\nIndestructible\nRequirements -20%",
+      "variable_stats": [
+        "350 to 400"
+      ]
+    },
+    {
+      "name": "Obsession",
+      "sockets": 6,
+      "bases": [
+        "Staff"
+      ],
+      "runes": [
+        "Zod",
+        "Ist",
+        "Lem",
+        "Lum",
+        "Io",
+        "Nef"
+      ],
+      "level": 69,
+      "stats": "24% Chance to cast level 10 Weaken when struck\n+4 to All Skills\n+65% Faster Cast Rate\n+60% Faster Hit Recovery\nKnockback\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Life 15 to 25%\nRegenerate Mana 15 to 30%\nAll Resistances +60 to 70\n75% Extra Gold from Monsters\n30% Better Chance of Getting Magic Items\nIndestructible",
+      "variable_stats": [
+        "15 to 25",
+        "15 to 30",
+        "60 to 70"
+      ]
+    },
+    {
+      "name": "Void",
+      "sockets": 3,
+      "bases": [
+        "Knife"
+      ],
+      "runes": [
+        "Thul",
+        "Zod",
+        "Ist"
+      ],
+      "level": 69,
+      "stats": "+2 to All Skills\n+40% Faster Cast Rate\nAdds 3-14 Cold Damage, Chilled for 3 seconds\n+10 to 15% to Magic Skill Damage\n+1 to 3 to Abyss\n+8 to 12 to all Attributes\n30% Better Chance of Getting Magic Items\nLevel 4 Decrepify (35/35 Charges)\nIndestructible",
+      "variable_stats": [
+        "10 to 15",
+        "1 to 3",
+        "8 to 12"
+      ]
+    }
+  ],
+  "variable_stats_note": "variable_stats contains numeric ranges that are random runeword rolls. Fixed damage spans such as 'Adds 5-30 Fire Damage' are intentionally not marked."
+}

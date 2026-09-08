@@ -1,0 +1,435 @@
+{
+  "inventory": {
+    "El": 55,
+    "Eld": 30,
+    "Tir": 30,
+    "Nef": 30,
+    "Eth": 99,
+    "Ith": 88,
+    "Tal": 20,
+    "Ral": 4,
+    "Ort": 99,
+    "Thul": 88,
+    "Amn": 20,
+    "Sol": 20,
+    "Shael": 99,
+    "Dol": 55,
+    "Hel": 25,
+    "Io": 35,
+    "Lum": 27,
+    "Ko": 14,
+    "Fal": 5,
+    "Lem": 0,
+    "Pul": 0,
+    "Um": 1,
+    "Mal": 2,
+    "Ist": 1,
+    "Gul": 0,
+    "Vex": 1,
+    "Ohm": 0,
+    "Lo": 0,
+    "Sur": 1,
+    "Ber": 0,
+    "Jah": 3,
+    "Cham": 0,
+    "Zod": 0
+  },
+  "runewords": {
+    "Nadir": {
+      "completed": false,
+      "favorite": false
+    },
+    "Steel": {
+      "completed": true,
+      "favorite": false
+    },
+    "Malice": {
+      "completed": true,
+      "favorite": false
+    },
+    "Stealth": {
+      "completed": true,
+      "favorite": false
+    },
+    "Leaf": {
+      "completed": true,
+      "favorite": false
+    },
+    "Ancients' Pledge": {
+      "completed": true,
+      "favorite": false
+    },
+    "Holy Thunder": {
+      "completed": false,
+      "favorite": false
+    },
+    "Zephyr": {
+      "completed": true,
+      "favorite": false
+    },
+    "Pattern": {
+      "completed": true,
+      "favorite": false
+    },
+    "Edge": {
+      "completed": true,
+      "favorite": false
+    },
+    "King's Grace": {
+      "completed": true,
+      "favorite": false
+    },
+    "Myth": {
+      "completed": true,
+      "favorite": false
+    },
+    "Spirit": {
+      "completed": true,
+      "favorite": false
+    },
+    "Strength": {
+      "completed": true,
+      "favorite": false
+    },
+    "Honor": {
+      "completed": true,
+      "favorite": false
+    },
+    "Insight": {
+      "completed": true,
+      "favorite": false
+    },
+    "Lore": {
+      "completed": true,
+      "favorite": false
+    },
+    "Radiance": {
+      "completed": true,
+      "favorite": false
+    },
+    "Authority": {
+      "completed": true,
+      "favorite": false
+    },
+    "Peace": {
+      "completed": true,
+      "favorite": false
+    },
+    "Rhyme": {
+      "completed": true,
+      "favorite": false
+    },
+    "Black": {
+      "completed": true,
+      "favorite": false
+    },
+    "White": {
+      "completed": true,
+      "favorite": false
+    },
+    "Ground": {
+      "completed": true,
+      "favorite": false
+    },
+    "Temper": {
+      "completed": true,
+      "favorite": false
+    },
+    "Hearth": {
+      "completed": true,
+      "favorite": false
+    },
+    "Cure": {
+      "completed": true,
+      "favorite": false
+    },
+    "Bulwark": {
+      "completed": true,
+      "favorite": false
+    },
+    "Memory": {
+      "completed": true,
+      "favorite": false
+    },
+    "Smoke": {
+      "completed": true,
+      "favorite": false
+    },
+    "Splendor": {
+      "completed": true,
+      "favorite": false
+    },
+    "Harmony": {
+      "completed": true,
+      "favorite": false
+    },
+    "Melody": {
+      "completed": true,
+      "favorite": false
+    },
+    "Hysteria": {
+      "completed": true,
+      "favorite": false
+    },
+    "Mania": {
+      "completed": true,
+      "favorite": false
+    },
+    "Lionheart": {
+      "completed": true,
+      "favorite": false
+    },
+    "Obedience": {
+      "completed": true,
+      "favorite": false
+    },
+    "Unbending Will": {
+      "completed": true,
+      "favorite": false
+    },
+    "Lawbringer": {
+      "completed": true,
+      "favorite": false
+    },
+    "Passion": {
+      "completed": true,
+      "favorite": false
+    },
+    "Voice of Reason": {
+      "completed": true,
+      "favorite": false
+    },
+    "Treachery": {
+      "completed": true,
+      "favorite": false
+    },
+    "Wealth": {
+      "completed": true,
+      "favorite": false
+    },
+    "Enlightenment": {
+      "completed": true,
+      "favorite": false
+    },
+    "Wisdom": {
+      "completed": true,
+      "favorite": false
+    },
+    "Bone": {
+      "completed": false,
+      "favorite": false
+    },
+    "Crescent Moon": {
+      "completed": true,
+      "favorite": false
+    },
+    "Duress": {
+      "completed": true,
+      "favorite": false
+    },
+    "Gloom": {
+      "completed": false,
+      "favorite": false
+    },
+    "Stone": {
+      "completed": false,
+      "favorite": false
+    },
+    "Oath": {
+      "completed": false,
+      "favorite": false
+    },
+    "Prudence": {
+      "completed": false,
+      "favorite": false
+    },
+    "Rain": {
+      "completed": true,
+      "favorite": false
+    },
+    "Sanctuary": {
+      "completed": true,
+      "favorite": false
+    },
+    "Venom": {
+      "completed": false,
+      "favorite": false
+    },
+    "Delirium": {
+      "completed": true,
+      "favorite": false
+    },
+    "Coven": {
+      "completed": true,
+      "favorite": false
+    },
+    "Kingslayer": {
+      "completed": false,
+      "favorite": false
+    },
+    "Principle": {
+      "completed": false,
+      "favorite": false
+    },
+    "Rift": {
+      "completed": false,
+      "favorite": false
+    },
+    "Mosaic": {
+      "completed": true,
+      "favorite": false
+    },
+    "Vigilance": {
+      "completed": false,
+      "favorite": false
+    },
+    "Death": {
+      "completed": true,
+      "favorite": false
+    },
+    "Flickering Flame": {
+      "completed": true,
+      "favorite": false
+    },
+    "Heart of the Oak": {
+      "completed": true,
+      "favorite": false
+    },
+    "Silence": {
+      "completed": false,
+      "favorite": false
+    },
+    "Call to Arms": {
+      "completed": true,
+      "favorite": false
+    },
+    "Chaos": {
+      "completed": false,
+      "favorite": false
+    },
+    "Exile": {
+      "completed": false,
+      "favorite": false
+    },
+    "Ritual": {
+      "completed": false,
+      "favorite": false
+    },
+    "Fortitude": {
+      "completed": true,
+      "favorite": false
+    },
+    "Grief": {
+      "completed": true,
+      "favorite": false
+    },
+    "Bramble": {
+      "completed": false,
+      "favorite": false
+    },
+    "Dragon": {
+      "completed": false,
+      "favorite": false
+    },
+    "Wind": {
+      "completed": false,
+      "favorite": false
+    },
+    "Beast": {
+      "completed": false,
+      "favorite": false
+    },
+    "Chains of Honor": {
+      "completed": true,
+      "favorite": false
+    },
+    "Eternity": {
+      "completed": true,
+      "favorite": false
+    },
+    "Infinity": {
+      "completed": true,
+      "favorite": false
+    },
+    "Wrath": {
+      "completed": false,
+      "favorite": false
+    },
+    "Brand": {
+      "completed": false,
+      "favorite": false
+    },
+    "Destruction": {
+      "completed": false,
+      "favorite": false
+    },
+    "Dream": {
+      "completed": true,
+      "favorite": false
+    },
+    "Enigma": {
+      "completed": true,
+      "favorite": false
+    },
+    "Faith": {
+      "completed": true,
+      "favorite": false
+    },
+    "Famine": {
+      "completed": false,
+      "favorite": false
+    },
+    "Fury": {
+      "completed": false,
+      "favorite": false
+    },
+    "Ice": {
+      "completed": true,
+      "favorite": false
+    },
+    "Last Wish": {
+      "completed": true,
+      "favorite": false
+    },
+    "Phoenix": {
+      "completed": true,
+      "favorite": false
+    },
+    "Doom": {
+      "completed": false,
+      "favorite": false
+    },
+    "Hand of Justice": {
+      "completed": true,
+      "favorite": false
+    },
+    "Mist": {
+      "completed": true,
+      "favorite": false
+    },
+    "Plague": {
+      "completed": true,
+      "favorite": false
+    },
+    "Pride": {
+      "completed": true,
+      "favorite": false
+    },
+    "Metamorphosis": {
+      "completed": false,
+      "favorite": false
+    },
+    "Breath of the Dying": {
+      "completed": true,
+      "favorite": false
+    },
+    "Obsession": {
+      "completed": true,
+      "favorite": false
+    },
+    "Void": {
+      "completed": true,
+      "favorite": false
+    }
+  }
+}
