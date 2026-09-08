@@ -1,4 +1,5 @@
 A tool to keep track of finished and unfinished runewords in Diablo 2.
+<br>
 Created it since the in game chronicle doesn't show unfinished runewords.
 
 <br>
@@ -15,5 +16,6 @@ Add your current runes to your "Rune Inventory" to see craft able runewords:
 <br>
 
 Hope you enjoy!
+<br>
 <br>
 <a href="https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ"> Donate </a>
