@@ -365,23 +365,6 @@ Found a bug or have an idea for a feature?
 
 Ideas and contributions are welcome.
 
----
-
-## 🗺️ Possible Future Features
-
-Some ideas for future versions:
-
-* Import / export user progress
-* Automatic update checking
-* Additional sorting options
-* Improved rune inventory controls
-* Runeword roll tracking
-* Backup / restore
-* Themes
-* Additional Diablo II tracking tools
-
----
-
 ## 📚 Runeword Data
 
 Runeword information is stored in the project's `runewords.json` database.
