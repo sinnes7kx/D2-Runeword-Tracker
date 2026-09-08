@@ -74,7 +74,6 @@ def load_runewords():
 
 
 def migrate_legacy_user_data():
-    """Copy an older user_data.json beside the script into AppData once."""
     if USER_FILE.exists():
         return
 
@@ -260,7 +259,6 @@ def format_missing(missing):
 
 
 def get_base_icon(bases):
-    """Return a compact icon based on the first matching base category."""
     names = " ".join(bases).casefold()
 
     if any(word in names for word in ("shield", "voodoo head", "grimoire")):
@@ -355,20 +353,20 @@ def open_details(item):
     ]
 
     for text in details[:2]:
-        tk.Label(win, text=text, bg='#121212', fg='#c9a85c' if text.startswith('Runes:') else '#dddddd', font=('Segoe UI', 10), anchor='w', justify='left', wraplength=560).pack(fill='x', padx=20, pady=3)
+        tk.Label(win, text=text, bg='#121212', fg='#c9a85c' if text.startswith('Runes:') else '#dddddd', font=('Segoe UI', 10, 'bold'), anchor='w', justify='left', wraplength=560).pack(fill='x', padx=20, pady=3)
 
     bases = item.get('bases', [])
     base_row = tk.Frame(win, bg='#121212')
     base_row.pack(fill='x', padx=20, pady=3)
-    tk.Label(base_row, text='Bases:', bg='#121212', fg='#dddddd', font=('Segoe UI', 10)).pack(side='left')
+    tk.Label(base_row, text='Bases:', bg='#121212', fg='#dddddd', font=('Segoe UI', 10, 'bold')).pack(side='left')
     if bases:
         tk.Label(base_row, text=get_base_icon(bases), bg='#121212', fg='white', font=('Segoe UI Symbol', 16, 'bold')).pack(side='left', padx=(6, 5))
-        tk.Label(base_row, text=', '.join(bases), bg='#121212', fg='#dddddd', font=('Segoe UI', 10)).pack(side='left')
+        tk.Label(base_row, text=', '.join(bases), bg='#121212', fg='#dddddd', font=('Segoe UI', 10, 'bold')).pack(side='left')
     else:
-        tk.Label(base_row, text='-', bg='#121212', fg='#dddddd', font=('Segoe UI', 10)).pack(side='left', padx=(6, 0))
+        tk.Label(base_row, text='-', bg='#121212', fg='#dddddd', font=('Segoe UI', 10, 'bold')).pack(side='left', padx=(6, 0))
 
     for text in details[2:]:
-        tk.Label(win, text=text, bg='#121212', fg='#dddddd', font=('Segoe UI', 10), anchor='w', justify='left', wraplength=560).pack(fill='x', padx=20, pady=3)
+        tk.Label(win, text=text, bg='#121212', fg='#dddddd', font=('Segoe UI', 10, 'bold'), anchor='w', justify='left', wraplength=560).pack(fill='x', padx=20, pady=3)
 
     tk.Label(win, text='Stats', bg='#121212', fg='white', font=('Segoe UI', 10, 'bold')).pack(anchor='w', padx=20, pady=(16, 5))
     stats = tk.Text(win, bg='#1e1e1e', fg='#dddddd', insertbackground='white', relief='flat', wrap='word', height=18, padx=10, pady=10)
@@ -397,7 +395,7 @@ def open_inventory():
     win.geometry('440x650')
     win.configure(bg='#121212')
 
-    tk.Label(win, text='Rune Inventory', bg="#423C3C", fg='white', font=('Segoe UI', 20, 'bold')).pack(anchor='w', padx=20, pady=(20, 4))
+    tk.Label(win, text='Rune Inventory', bg="#121212", fg='white', font=('Segoe UI', 20, 'bold')).pack(anchor='w', padx=20, pady=(20, 4))
     tk.Label(win, text='Enter how many of each rune you own.', bg='#121212', fg='#aaaaaa', font=('Segoe UI', 10)).pack(anchor='w', padx=20, pady=(0, 12))
 
     outer = tk.Frame(win, bg='#121212')
@@ -631,12 +629,15 @@ root.geometry('820x640')
 root.minsize(680, 500)
 root.configure(bg='#121212')
 
-# Window/taskbar icon. zod.png is bundled with the app.
-try:
-    app_icon = tk.PhotoImage(file=str(get_resource_path('zod.png')))
-    root.iconphoto(True, app_icon)
-except (tk.TclError, OSError):
-    app_icon = None
+# Use bundled Zod image as the window/taskbar icon when available.
+_app_icon = None
+_icon_path = get_resource_path('zod.png')
+if _icon_path.exists():
+    try:
+        _app_icon = tk.PhotoImage(file=str(_icon_path))
+        root.iconphoto(True, _app_icon)
+    except tk.TclError:
+        pass
 
 header = tk.Frame(root, bg='#121212')
 header.pack(fill='x', padx=12, pady=(10, 4))

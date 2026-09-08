@@ -27,7 +27,7 @@
         "El"
       ],
       "level": 13,
-      "stats": "+25% Increased Attack Speed\n+3 to Minimum Damage (All)\n+3 to Maximum Damage (All)\n+50 to Attack Rating\n50% Chance of Open Wounds\n+2 to Mana after each Kill\n+1 to Light Radius\n+20% Enhanced Damage",
+      "stats": "+25% Increased Attack Speed\n+3 to Minimum Damage\n+3 to Maximum Damage\n+50 to Attack Rating\n50% Chance of Open Wounds\n+2 to Mana after each Kill\n+1 to Light Radius\n+20% Enhanced Damage",
       "variable_stats": []
     },
     {
@@ -42,7 +42,7 @@
         "Eth"
       ],
       "level": 15,
-      "stats": "+9 to Maximum Damage (All)\n-25% Target Defense\n+50 to Attack Rating\n100% Chance of Open Wounds\nPrevent Monster Heal\n-100 to Monster Defense\nPer Hit\nReplenish Life +7\n-5 + to Light Radius\n+33% Enhanced Damage",
+      "stats": "+9 to Maximum Damage\n-25% Target Defense\n+50 to Attack Rating\n100% Chance of Open Wounds\nPrevent Monster Heal\n-100 to Monster Defense Per Hit\nReplenish Life -5\n + to Light Radius\n+33% Enhanced Damage",
       "variable_stats": []
     },
     {
@@ -85,7 +85,7 @@
         "Tal"
       ],
       "level": 21,
-      "stats": "+50% Enhanced Defense\nCold Resist 30%\nLightning Resist 35%\nAll Resistances\n+13\nFire Resist 35%\nPoison Resist 35%\n10% Damage Taken Goes To Mana",
+      "stats": "+50% Enhanced Defense\nCold Resist 30%\nLightning Resist 35%\nAll Resistances +13\nFire Resist 35%\nPoison Resist 35%\n10% Damage Taken Goes To Mana",
       "variable_stats": []
     },
     {
@@ -101,7 +101,7 @@
         "Tal"
       ],
       "level": 21,
-      "stats": "+10 to Maximum Damage (All)\n-25% Target Defense\nAdds 5-30 Fire Damage\nAdds 21-110 Lightning Damage\nAdds 75 Poison Damage Over 5 Seconds\n+3 to Holy Shock (Paladin only)\n+5% to Maximum Lightning Resist\nLightning Resist +60%\nLevel 7 Chain Lightning (60/60 Charges)\n+60% Enhanced Damage",
+      "stats": "+10 to Maximum Damage\n-25% Target Defense\nAdds 5-30 Fire Damage\nAdds 21-110 Lightning Damage\nAdds 75 Poison Damage Over 5 Seconds\n+3 to Holy Shock (Paladin only)\n+5% to Maximum Lightning Resist\nLightning Resist +60%\nLevel 7 Chain Lightning (60/60 Charges)\n+60% Enhanced Damage",
       "variable_stats": []
     },
     {
@@ -233,7 +233,7 @@
         "Sol"
       ],
       "level": 27,
-      "stats": "+1 to All Skills\n+9 to Minimum Damage (All)\n+9 to Maximum Damage (All)\n+250 to Attack Rating\n7% Life stolen per hit\n25% Deadly Strike\n+10 to Strength\nReplenish Life +7\n+2 to Mana after each Kill\n+1 to Light Radius\n+160% Enhanced Damage",
+      "stats": "+1 to All Skills\n+9 to Minimum Damage\n+9 to Maximum Damage\n+250 to Attack Rating\n7% Life stolen per hit\n25% Deadly Strike\n+10 to Strength\nReplenish Life +7\n+2 to Mana after each Kill\n+1 to Light Radius\n+160% Enhanced Damage",
       "variable_stats": []
     },
     {
@@ -470,7 +470,7 @@
         "Eth"
       ],
       "level": 37,
-      "stats": "+3 to Sorceress Skill Levels\n+33% Faster Cast Rate\n+9 to Minimum Damage (All)\n-25% Target Defense\n+3 to Energy Shield\n(Sorceress only)\n+2 to Static Field (Sorceress only)\n+50% Enhanced Defense\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced by 7",
+      "stats": "+3 to Sorceress Skill Levels\n+33% Faster Cast Rate\n+9 to Minimum Damage\n-25% Target Defense\n+3 to Energy Shield\n(Sorceress only)\n+2 to Static Field (Sorceress only)\n+50% Enhanced Defense\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced by 7",
       "variable_stats": []
     },
     {
@@ -516,7 +516,7 @@
         "Ko"
       ],
       "level": 39,
-      "stats": "Level 10 Vigor Aura When Equipped\n+9 to Minimum Damage (All)\n+9 to Maximum Damage (All)\nAdds 55-160 Fire/Lightning/Cold Damage\n+2 to 6 to Valkyrie\n+10 to Dexterity\nRegenerate Mana 20%\n+2 to Mana after each Kill\n+2 to Light Radius\nLevel 20 Revive (25/25 Charges)\n+200 to 275% Enhanced Damage",
+      "stats": "Level 10 Vigor Aura When Equipped\n+9 to Minimum Damage\n+9 to Maximum Damage\nAdds 55-160 Fire/Lightning/Cold Damage\n+2 to 6 to Valkyrie\n+10 to Dexterity\nRegenerate Mana 20%\n+2 to Mana after each Kill\n+2 to Light Radius\nLevel 20 Revive (25/25 Charges)\n+200 to 275% Enhanced Damage",
       "variable_stats": [
         "2 to 6",
         "200 to 275"
@@ -1347,7 +1347,7 @@
         "Sur"
       ],
       "level": 63,
-      "stats": "+9 to Minimum Damage (All)\n7% Life stolen per hit\n20% Chance of Crushing Blow\nHit Blinds Target +1 Slows Target by 33%\nReplenish Life +7\n+16\nRegenerate Mana 16%\nCannot Be Frozen\n30% Better Chance of Getting Magic Items\nLevel 8 Revive (88/88 Charges)\n+260 to 310% Enhanced Damage\nIndestructible",
+      "stats": "+9 to Minimum Damage\n7% Life stolen per hit\n20% Chance of Crushing Blow\nHit Blinds Target +1 Slows Target by 33%\nReplenish Life +7\n+16\nRegenerate Mana 16%\nCannot Be Frozen\n30% Better Chance of Getting Magic Items\nLevel 8 Revive (88/88 Charges)\n+260 to 310% Enhanced Damage\nIndestructible",
       "variable_stats": [
         "260 to 310"
       ]
@@ -1440,7 +1440,7 @@
         "Pul"
       ],
       "level": 65,
-      "stats": "10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+20 to 30% Faster Hit Recovery\n+150 to 220 Defense\n+0.625 to Mana (Based on Character Level)\nAll Resistances\n+5 to 20 12 to 25% Better Chance of Getting Magic Items\nArmor\n+10 to Vitality\nIncrease Maximum Life 5%\n+30% Enhanced Defense\nShields\n+10 to Vitality\n+50 to Life\n+30% Enhanced Defense",
+      "stats": "10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+20 to 30% Faster Hit Recovery\n+150 to 220 Defense\n+0.625 to Mana (Based on Character Level)\nAll Resistances +5 to 20 12 to 25% Better Chance of Getting Magic Items\nArmor\n+10 to Vitality\nIncrease Maximum Life 5%\n+30% Enhanced Defense\nShields\n+10 to Vitality\n+50 to Life\n+30% Enhanced Defense",
       "variable_stats": [
         "20 to 30",
         "150 to 220",
@@ -1633,7 +1633,7 @@
         "Ith"
       ],
       "level": 67,
-      "stats": "Level 8 to 12 Concentration Aura When Equipped\n+3 to All Skills\n+20% Increased Attack Speed\n100% Piercing Attack\n+9 to Maximum Damage (All)\n20% Bonus to Attack Rating\nAdds 3-14 Cold Damage, Chilled for 3 seconds\nFreezes Target +3\n+24 to Vitality\nAll Resistances\n+40\n+325 to 375% Enhanced Damage",
+      "stats": "Level 8 to 12 Concentration Aura When Equipped\n+3 to All Skills\n+20% Increased Attack Speed\n100% Piercing Attack\n+9 to Maximum Damage\n20% Bonus to Attack Rating\nAdds 3-14 Cold Damage, Chilled for 3 seconds\nFreezes Target +3\n+24 to Vitality\nAll Resistances +40\n+325 to 375% Enhanced Damage",
       "variable_stats": [
         "8 to 12",
         "325 to 375"
@@ -1690,7 +1690,7 @@
         "Fal"
       ],
       "level": 67,
-      "stats": "100% Chance to cast level 1 Mark of the Bear on striking\n100% Chance to cast level 1 Mark of the Wolf on striking\n+5 to Shapeshifting Skills (Druid Only)\n25% Chance of Crushing Blow\n+50 to 80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances\n+10\nCannot Be Frozen",
+      "stats": "100% Chance to cast level 1 Mark of the Bear on striking\n100% Chance to cast level 1 Mark of the Wolf on striking\n+5 to Shapeshifting Skills (Druid Only)\n25% Chance of Crushing Blow\n+50 to 80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot Be Frozen",
       "variable_stats": [
         "50 to 80"
       ]
