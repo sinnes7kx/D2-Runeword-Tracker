@@ -236,6 +236,109 @@ def can_craft(item):
     return not get_missing_runes(item)
 
 
+def calculate_missing_rune_totals(items, states, inventory):
+    """Count one copy of every unfinished runeword, sharing inventory once."""
+    required = Counter()
+    remaining = 0
+    for item in items:
+        if states.get(item['name'], {}).get('completed', False):
+            continue
+        remaining += 1
+        required.update(item.get('runes', []))
+
+    ordered = [rune for rune in RUNE_ORDER if rune in required]
+    ordered.extend(sorted(set(required) - set(RUNE_ORDER)))
+    rows = []
+    for rune in ordered:
+        needed = required[rune]
+        owned = max(0, int(inventory.get(rune, 0)))
+        rows.append((rune, needed, owned, max(0, needed - owned)))
+    return remaining, rows
+
+
+missing_runes_window = None
+
+
+def open_missing_runes():
+    global missing_runes_window
+    if missing_runes_window is not None and missing_runes_window.winfo_exists():
+        missing_runes_window.refresh_totals()
+        missing_runes_window.lift()
+        missing_runes_window.focus_set()
+        return
+
+    win = tk.Toplevel(root)
+    missing_runes_window = win
+    win.title('Runes for Missing Runewords')
+    win.geometry('580x660')
+    win.minsize(540, 420)
+    win.configure(bg='#121212')
+    tk.Label(win, text='Runes for Missing Runewords', bg='#121212',
+             fg='white', font=('Segoe UI', 18, 'bold')).pack(
+                 anchor='w', padx=20, pady=(20, 8))
+    tk.Label(win, text='One copy of every uncompleted runeword, regardless of search or filter.\n'
+             'Inventory is deducted once from the combined requirements.\n'
+             'Direct rune requirements only; cube upgrades are not included.',
+             bg='#121212', fg='#aaaaaa', font=('Segoe UI', 9),
+             justify='left', anchor='w').pack(fill='x', padx=20)
+
+    summary = tk.Label(win, bg='#121212', fg='#c9a85c',
+                       font=('Segoe UI', 10, 'bold'), justify='left', anchor='w')
+    summary.pack(fill='x', padx=20, pady=14)
+
+    style = ttk.Style(win)
+    style.configure('RuneTotals.Treeview', background='#1e1e1e',
+                    fieldbackground='#1e1e1e', foreground='#dddddd',
+                    rowheight=28, font=('Segoe UI', 10))
+    style.map('RuneTotals.Treeview', background=[('selected', '#454035')],
+              foreground=[('selected', 'white')])
+    table_frame = tk.Frame(win, bg='#121212')
+    table_frame.pack(fill='both', expand=True, padx=20)
+    table = ttk.Treeview(table_frame, columns=('rune', 'required', 'owned', 'need'),
+                         show='headings', style='RuneTotals.Treeview', selectmode='browse')
+    for column, title in [('rune', 'Rune'), ('required', 'Required'),
+                          ('owned', 'Owned'), ('need', 'Still needed')]:
+        table.heading(column, text=title)
+        table.column(column, width=120, minwidth=90,
+                     anchor='w' if column == 'rune' else 'center')
+    scroll = ttk.Scrollbar(table_frame, orient='vertical', command=table.yview,
+                           style='Dark.Vertical.TScrollbar')
+    table.configure(yscrollcommand=scroll.set)
+    scroll.pack(side='right', fill='y')
+    table.pack(side='left', fill='both', expand=True)
+    table.tag_configure('needed', foreground='#e6a15c')
+    table.tag_configure('covered', foreground='#00dd88')
+
+    def refresh_totals():
+        remaining, rows = calculate_missing_rune_totals(
+            data.get('items', []), user_data['runewords'], user_data['inventory'])
+        position = table.yview()[0]
+        children = table.get_children()
+        if children:
+            table.delete(*children)
+        for rune, required, owned, needed in rows:
+            table.insert('', 'end', values=(rune, required, owned, needed),
+                         tags=('needed' if needed else 'covered',))
+        table.yview_moveto(position)
+        total = sum(row[1] for row in rows)
+        shortage = sum(row[3] for row in rows)
+        types = sum(row[3] > 0 for row in rows)
+        if not remaining:
+            text = 'No missing runewords — everything is completed.'
+        else:
+            text = (f'{remaining} missing runewords • {total} runes required\n'
+                    f'Still needed: {shortage} runes across {types} rune types')
+        summary.configure(text=text)
+
+    win.refresh_totals = refresh_totals
+    buttons = tk.Frame(win, bg='#121212')
+    buttons.pack(fill='x', padx=20, pady=16)
+    make_smooth_button(buttons, text='Edit inventory', command=open_inventory).pack(side='left')
+    make_smooth_button(buttons, text='Close', command=win.destroy).pack(side='right')
+    win.bind('<Escape>', lambda _: win.destroy())
+    refresh_totals()
+
+
 def craft_count(item):
     needed = Counter(item.get('runes', []))
     if not needed:
@@ -401,7 +504,8 @@ def open_inventory():
     outer = tk.Frame(win, bg='#121212')
     outer.pack(fill='both', expand=True, padx=20, pady=(0, 20))
     canvas_inv = tk.Canvas(outer, bg='#121212', highlightthickness=0)
-    scrollbar_inv = tk.Scrollbar(outer, orient='vertical', command=canvas_inv.yview)
+    scrollbar_inv = ttk.Scrollbar(outer, orient='vertical', command=canvas_inv.yview,
+                                  style='Dark.Vertical.TScrollbar')
     canvas_inv.configure(yscrollcommand=scrollbar_inv.set)
     scrollbar_inv.pack(side='right', fill='y')
     canvas_inv.pack(side='left', fill='both', expand=True)
@@ -434,6 +538,8 @@ def open_inventory():
 
 
 def refresh_list(*_):
+    if missing_runes_window is not None and missing_runes_window.winfo_exists():
+        missing_runes_window.refresh_totals()
     for widget in inner_frame.winfo_children():
         widget.destroy()
 
@@ -610,7 +716,8 @@ def refresh_list(*_):
 
 
 def on_mousewheel(event):
-    canvas.yview_scroll(int(-1 * (event.delta / 120)), 'units')
+    if event.widget.winfo_toplevel() == root:
+        canvas.yview_scroll(int(-1 * (event.delta / 120)), 'units')
 
 
 DONATE_URL = 'https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ'
@@ -628,6 +735,71 @@ root.title('Diablo 2 Runeword Tracker')
 root.geometry('820x640')
 root.minsize(680, 500)
 root.configure(bg='#121212')
+
+# Clam allows dark colors on Windows, including otherwise-native ttk fields.
+scroll_style = ttk.Style(root)
+scroll_style.theme_use('clam')
+scroll_style.configure('.', background='#222222', foreground='#dddddd',
+                       bordercolor='#333333', lightcolor='#333333',
+                       darkcolor='#333333', troughcolor='#121212',
+                       selectbackground='#454035', selectforeground='white')
+scroll_style.configure('TCombobox', fieldbackground='#222222',
+                       background='#333333', foreground='#dddddd',
+                       arrowcolor='#aaaaaa', bordercolor='#333333', padding=4)
+scroll_style.map('TCombobox',
+                 fieldbackground=[('readonly', '#222222'), ('disabled', '#1a1a1a')],
+                 foreground=[('disabled', '#666666'), ('readonly', '#dddddd')],
+                 selectbackground=[('readonly', '#222222')],
+                 selectforeground=[('readonly', '#dddddd')],
+                 background=[('active', '#454545'), ('pressed', '#505050')])
+# The expanded combobox is a Tk listbox, so it needs separate colors.
+root.option_add('*TCombobox*Listbox.background', '#222222')
+root.option_add('*TCombobox*Listbox.foreground', '#dddddd')
+root.option_add('*TCombobox*Listbox.selectBackground', '#454035')
+root.option_add('*TCombobox*Listbox.selectForeground', '#ffffff')
+root.option_add('*TCombobox*Listbox.highlightThickness', 0)
+root.option_add('*TCombobox*Listbox.borderWidth', 0)
+scroll_style.configure('Treeview', background='#1e1e1e',
+                       fieldbackground='#1e1e1e', foreground='#dddddd',
+                       borderwidth=0, relief='flat')
+scroll_style.configure('Treeview.Heading', background='#292929',
+                       foreground='#c9a85c', relief='flat', borderwidth=0,
+                       font=('Segoe UI', 10, 'bold'), padding=(8, 7))
+scroll_style.map('Treeview.Heading', background=[('active', '#383838'),
+                                               ('pressed', '#454035')])
+# Remove the native border; the unused area below the rows stays dark.
+scroll_style.layout('RuneTotals.Treeview', [('Treeview.treearea', {'sticky': 'nswe'})])
+scroll_style.configure('Horizontal.TProgressbar', background='#c9a85c',
+                       troughcolor='#222222', bordercolor='#222222',
+                       lightcolor='#c9a85c', darkcolor='#c9a85c')
+root.option_add('*Spinbox.highlightThickness', 0)
+root.option_add('*Spinbox.selectBackground', '#454035')
+root.option_add('*Spinbox.selectForeground', '#ffffff')
+
+for part in ('trough', 'thumb', 'uparrow', 'downarrow'):
+    scroll_style.element_create(
+        f'Dark.Vertical.Scrollbar.{part}', 'from', 'clam',
+        f'Vertical.Scrollbar.{part}')
+scroll_style.layout('Dark.Vertical.TScrollbar', [
+    ('Dark.Vertical.Scrollbar.trough', {'sticky': 'ns', 'children': [
+        ('Dark.Vertical.Scrollbar.uparrow', {'side': 'top', 'sticky': ''}),
+        ('Dark.Vertical.Scrollbar.downarrow', {'side': 'bottom', 'sticky': ''}),
+        ('Dark.Vertical.Scrollbar.thumb', {'expand': '1', 'sticky': 'nswe'}),
+    ]}),
+])
+scroll_style.configure(
+    'Dark.Vertical.TScrollbar',
+    troughcolor='#121212', background='#353535',
+    bordercolor='#121212', lightcolor='#353535', darkcolor='#353535',
+    arrowcolor='#aaaaaa', arrowsize=14, borderwidth=0,
+)
+scroll_style.map(
+    'Dark.Vertical.TScrollbar',
+    background=[('pressed', '#666666'), ('active', '#505050')],
+    lightcolor=[('pressed', '#666666'), ('active', '#505050')],
+    darkcolor=[('pressed', '#666666'), ('active', '#505050')],
+    arrowcolor=[('disabled', '#454545'), ('active', '#dddddd')],
+)
 
 # Use bundled Zod image as the window/taskbar icon when available.
 _app_icon = None
@@ -699,8 +871,12 @@ sort_var.trace_add('write', refresh_list)
 ttk.Combobox(controls, textvariable=sort_var, values=['Default','Name','Level','Craftable first'], state='readonly', width=12).pack(side='left', padx=(0, 5))
 
 def open_main_menu():
-    menu = tk.Menu(root, tearoff=0)
+    menu = tk.Menu(root, tearoff=0, bg='#222222', fg='#dddddd',
+                   activebackground='#454035', activeforeground='white',
+                   disabledforeground='#666666', relief='flat', bd=0,
+                   activeborderwidth=0)
     menu.add_command(label='Rune Inventory', command=open_inventory)
+    menu.add_command(label='Runes for Missing Runewords', command=open_missing_runes)
     menu.add_separator()
     menu.add_command(label='Reset completed', command=reset_completed)
 
@@ -727,13 +903,17 @@ menu_button = make_smooth_button(
 )
 menu_button.pack(side='left')
 
+make_smooth_button(controls, text='Rune totals', command=open_missing_runes,
+                   fg='#c9a85c', font=('Segoe UI', 9)).pack(side='left', padx=(5, 0))
+
 status_label = tk.Label(root, text='', bg='#121212', fg='white', font=('Segoe UI', 8))
 status_label.pack(fill='x', padx=12, pady=(0, 2))
 
 list_container = tk.Frame(root, bg='#121212')
 list_container.pack(fill='both', expand=True, padx=12, pady=(2, 10))
 canvas = tk.Canvas(list_container, bg='#121212', highlightthickness=0)
-scrollbar = tk.Scrollbar(list_container, orient='vertical', command=canvas.yview)
+scrollbar = ttk.Scrollbar(list_container, orient='vertical', command=canvas.yview,
+                          style='Dark.Vertical.TScrollbar')
 canvas.configure(yscrollcommand=scrollbar.set)
 scrollbar.pack(side='right', fill='y')
 canvas.pack(side='left', fill='both', expand=True)
