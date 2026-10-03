@@ -74,11 +74,13 @@ For example, if your remaining recipes require **3 Ber** in total and you own **
 
 These are direct rune requirements. Horadric Cube upgrades and gem costs are not included.
 
-## 🖥️ Screenshot
+## 🖥️ Screenshots
 
 <div align="center">
 
 <img src="https://i.imgur.com/FfeW5Q0.png" alt="D2 Runeword Tracker dark interface" width="800">
+<img src="https://i.imgur.com/W59KDPJ.png" alt="D2 Runeword Tracker dark interface" width="800">
+
 
 </div>
 
