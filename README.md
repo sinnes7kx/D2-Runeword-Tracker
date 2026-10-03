@@ -78,7 +78,7 @@ These are direct rune requirements. Horadric Cube upgrades and gem costs are not
 
 <div align="center">
 
-<img src="screenshot.png" alt="D2 Runeword Tracker dark interface" width="800">
+<img src="https://i.imgur.com/FfeW5Q0.png" alt="D2 Runeword Tracker dark interface" width="800">
 
 </div>
 
