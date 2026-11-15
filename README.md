@@ -24,6 +24,11 @@ Track completed runewords, manage your rune inventory, see what you can craft, a
 
 The tracker **does not read Diablo II save files or communicate with the game**. You enter your rune inventory and completion status manually. An internet connection is only needed to check for/download updates.
 
+## 🖥️ Screenshots
+
+<img src="https://i.imgur.com/FfeW5Q0.png" alt="D2 Runeword Tracker dark interface" width="650">
+<img src="https://i.imgur.com/W59KDPJ.png" alt="D2 Runeword Tracker dark interface" width="600">
+
 ## 🚀 Download and install
 
 1. Go to the **[latest GitHub Release](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)**.
