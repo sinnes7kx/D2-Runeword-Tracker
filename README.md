@@ -8,19 +8,9 @@ Track completed Runewords, manage your rune inventory, and see exactly which run
 
 <br>
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases)
-[![Python](https://img.shields.io/badge/Python-Tkinter-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![GitHub release](https://img.shields.io/github/v/release/sinnes7kx/D2-Runeword-Tracker?include_prereleases&label=Release)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/sinnes7kx/D2-Runeword-Tracker/total?label=Downloads)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases)
-[![PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ)
+[![Latest Release](https://img.shields.io/github/v/release/sinnes7kx/D2-Runeword-Tracker?label=Latest%20Version)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
 
-<br>
-
-[**⬇ Download Latest Release**](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
-&nbsp; • &nbsp;
-[**🐛 Report an Issue**](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues)
-&nbsp; • &nbsp;
-[**☕ Donate**](https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ)
+[![Download DiskSpace Analyzer](https://img.shields.io/badge/Download-Windows-blue?logo=windows)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
 
 </div>
 
