@@ -13,7 +13,6 @@ Track completed runewords, manage your rune inventory, see what you can craft, a
 - **Runeword checklist:** Mark recipes complete and track overall progress.
 - **Rune inventory:** Record the number of each rune you own and identify craftable recipes.
 - **Automatic rune deductions (v1.3):** When you complete a runeword using runes recorded in your inventory, the required runes are deducted. Repeated runes are counted individually.
-- **30-second refund window (v1.3):** Undo a completion within 30 seconds to return the runes deducted for that completion. After the window expires, you may still uncheck the runeword, but spent runes are not automatically refunded.
 - **Runewords you already owned:** You can mark a runeword complete without deducting inventory if you don't have its required runes recorded.
 - **Rune totals:** See required, owned, and missing rune counts for all unfinished runewords together.
 - **Search and filters:** Search by runeword, rune, base, or required level. Filter completed, missing, craftable, one-rune-away, and favorite entries.
