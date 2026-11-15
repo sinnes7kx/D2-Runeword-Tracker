@@ -1,162 +1,89 @@
-<div align="center">
-
 # ⚔️ D2 Runeword Tracker
 
-### A lightweight Runeword tracker for Diablo II: Resurrected
+**A lightweight Windows runeword tracker for Diablo II: Resurrected.**
 
-Track completed Runewords, manage your rune inventory, and see exactly which runes you still need to finish your collection or Chronicle.
+Track completed runewords, manage your rune inventory, see what you can craft, and plan the runes you still need for your collection or Chronicle.
 
-<br>
-
-[![Latest Release](https://img.shields.io/github/v/release/sinnes7kx/D2-Runeword-Tracker?label=Latest%20Version)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
-
-[![Download DiskSpace Analyzer](https://img.shields.io/badge/Download-Windows-blue?logo=windows)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
-
-</div>
-
----
-
-## 📖 About
-
-**D2 Runeword Tracker** is a small desktop application for tracking Runewords in **Diablo II: Resurrected**.
-
-Keep a checklist of completed Runewords, find recipes you can craft, and plan your rune farming with a combined total for every Runeword you still need.
-
-Everything is stored **locally on your computer**. No account or internet connection is required to use the tracker. Inventory and completion are entered manually; the app does not read your game saves or sync with the game.
+[![Latest Release](https://img.shields.io/github/v/release/sinnes7kx/D2-Runeword-Tracker?label=Latest%20release)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-272727?logo=windows)](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
+[![Report an issue](https://img.shields.io/badge/Report-an%20issue-c9a85c)](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues)
 
 ## ✨ Features
 
-| Feature | What it does |
-| --- | --- |
-| ✅ **Runeword checklist** | Mark Runewords completed and track completion percentage, remaining entries, and currently craftable recipes. |
-| 💎 **Rune inventory** | Enter how many of each rune you own and see which recipes your inventory covers. |
-| 🧮 **Rune totals** | View required, owned, and still-needed quantities for each rune across all uncompleted Runewords. |
-| 🔎 **Search and filters** | Search by name, rune, base, or required level. Filter by completion, craftability, missing runes, or favorites. |
-| ⭐ **Favorites** | Save the Runewords you want to find quickly or farm toward next. |
-| 📊 **Detailed stats** | View rune order, sockets, compatible bases, required level, craftable copies, and full stats. |
-| 🎲 **Variable rolls** | Highlight variable stats when they are identified in the database. |
-| 🌙 **Dark interface** | Dark tables, headers, dropdowns, menus, and scrollbars, with gold accents and colored rune availability. |
-| 💾 **Automatic saving** | Keep inventory, favorites, and checklist progress between sessions and application updates. |
+- **Runeword checklist:** Mark recipes complete and track overall progress.
+- **Rune inventory:** Record the number of each rune you own and identify craftable recipes.
+- **Automatic rune deductions (v1.3):** When you complete a runeword using runes recorded in your inventory, the required runes are deducted. Repeated runes are counted individually.
+- **30-second refund window (v1.3):** Undo a completion within 30 seconds to return the runes deducted for that completion. After the window expires, you may still uncheck the runeword, but spent runes are not automatically refunded.
+- **Runewords you already owned:** You can mark a runeword complete without deducting inventory if you don't have its required runes recorded.
+- **Rune totals:** See required, owned, and missing rune counts for all unfinished runewords together.
+- **Search and filters:** Search by runeword, rune, base, or required level. Filter completed, missing, craftable, one-rune-away, and favorite entries.
+- **Detailed recipes:** View rune order, sockets, bases, level requirements, craftable copies, stats, and highlighted variable rolls where available.
+- **Fast, near-black interface (v1.3):** Dark charcoal/black UI, restrained gold accents, smoother hover and press feedback, and faster completion/restoration updates.
+- **Update notifications (v1.3):** Checks published GitHub releases for newer versions and offers a link to download them. Use **☰ → Check for updates** to check manually.
+- **Local automatic saving:** Keeps your rune inventory, checklist, favorites, and applicable refund information between sessions.
 
-## 🧮 Runes for Missing Runewords
+The tracker **does not read Diablo II save files or communicate with the game**. You enter your rune inventory and completion status manually. An internet connection is only needed to check for/download updates.
 
-Click **Rune totals**, or open **☰ → Runes for Missing Runewords**.
+## 🚀 Download and install
 
-The window counts the runes needed to make **one copy of every uncompleted Runeword**.
+1. Go to the **[latest GitHub Release](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)**.
+2. Download the Windows `.exe` or ZIP asset provided under **Assets**.
+3. If you downloaded a ZIP, extract it before running the application.
+4. Launch `D2RunewordTracker.exe`.
 
-| Column | Meaning |
-| --- | --- |
-| **Rune** | The rune type, listed in rune order. |
-| **Required** | Total copies needed across all uncompleted Runewords. |
-| **Owned** | Copies recorded in your rune inventory. |
-| **Still needed** | Required minus owned, with a minimum of zero. |
+The packaged Windows executable does not require Python to be installed. Download the release asset, **not** GitHub's automatically generated “Source code” ZIP, if you just want to run the program.
 
-The summary shows how many Runewords remain, the total number of runes required, and how many additional runes you need across how many rune types.
+## 🎮 How to use
 
-- Repeated runes in a recipe are counted individually.
-- Your inventory is deducted **once from the combined requirements**, so the same rune cannot cover multiple recipes at once.
-- Totals include **all uncompleted Runewords**, regardless of the current search or filter.
-- The window updates automatically when you change completion status or commit an inventory change.
-- Orange rows indicate a shortage; green rows indicate enough runes for that type.
-- Use **Edit inventory** to adjust your rune counts directly from this window.
+### Manage your runes
 
-For example, if your remaining recipes require **3 Ber** in total and you own **1 Ber**, the table shows **2 still needed**.
+Open **☰ → Rune Inventory**. Enter the quantity of each rune you own; changes save locally.
 
-These are direct rune requirements. Horadric Cube upgrades and gem costs are not included.
+### Find and complete a runeword
 
-## 🖥️ Screenshots
+Use the **Can craft** filter to see which recipes are covered by your recorded rune inventory. Click the **✔** button beside a runeword you have crafted. In v1.3, the required runes are deducted when available and you confirm completion.
 
-<div align="center">
+If you make a mistake, click **↩** within **30 seconds** to restore the deducted runes. The undo period is based on the original completion time, even if you close and reopen the app. After 30 seconds, unchecking removes its completed status but **does not return spent runes**.
 
-<img src="https://i.imgur.com/FfeW5Q0.png" alt="D2 Runeword Tracker dark interface" width="650">
-<img src="https://i.imgur.com/W59KDPJ.png" alt="D2 Runeword Tracker dark interface" width="600">
+If you already have a completed runeword but did not enter the runes used to craft it, you can mark it completed without deducting inventory.
 
+### See what is missing
 
-</div>
+Click **Rune totals** (or **☰ → Runes for Missing Runewords**) to see how many runes are needed to make one copy of every unfinished runeword. Inventory is deducted once from the combined requirements, rather than being reused across different recipes. These totals use direct runes only; cube upgrades are not included.
 
-<!-- Add an up-to-date screenshot.png to the repository root. -->
+### Favorites, details, and search
 
-## 🚀 Installation
+Click **☆** to favorite a runeword. Click **…** or double-click a row to inspect its details. Search by name, rune, item base, or required level; click outside the search box to remove focus without clearing your search.
 
-1. Open the [**Releases page**](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases).
-2. Download the latest Windows `.exe`.
-3. Start **D2RunewordTracker.exe**.
+## 🔔 Updates
 
-**Python is not required** for the packaged Windows release. The Runeword database is bundled into the executable when built using the command below.
+Starting with v1.3, the application can check the latest published release at this repository. If a newer version exists, it displays an update notification and a link to the GitHub release page. You can also check from **☰ → Check for updates**.
 
-## 🎮 How to Use
+The app **does not automatically install or replace** its own executable. Download and launch the newer release manually. The update checker does not affect normal offline use.
 
-### 1. Add your runes
+## 💾 Where is my progress saved?
 
-Open **☰ → Rune Inventory** and enter the number of each rune you own. Press **Enter** or move out of the field to save a typed value. The spinner arrows also save changes.
-
-### 2. Find recipes you can craft
-
-Select **Can craft** from the filter menu. Each recipe is checked individually against your current inventory.
-
-Several recipes may use the same runes, so being listed as craftable does not mean you can make all of them together. Use **Rune totals** to see the combined requirements for your unfinished collection.
-
-### 3. Check stats
-
-Click **…** or **double-click a Runeword** to open its details. You can see rune order, bases, socket count, required level, craftable copies, missing runes, and stats.
-
-### 4. Mark a Runeword complete
-
-Click **✔** after creating a Runeword. Click **↩** to mark it incomplete again.
-
-**Marking a Runeword completed does not deduct runes from your inventory.** Update your inventory after crafting to keep availability and totals accurate.
-
-### 5. Plan your next rune hunt
-
-Open **Rune totals** to see exactly how many more runes of each type you need for the remaining Runewords. Marking recipes completed removes their requirements from this window.
-
-### 6. Keep favorites handy
-
-Click **☆** to favorite a Runeword, then select **Favorites** to find it quickly. Click **★** to remove it from favorites.
-
-## 🔎 Filters and Sorting
-
-| Filter | Shows |
-| --- | --- |
-| **All** | Every Runeword. |
-| **Missing** | Runewords not marked completed. |
-| **Completed** | Runewords marked completed. |
-| **Can craft** | Recipes covered by your current rune inventory, including completed entries. |
-| **Missing 1 rune** | Recipes short of exactly one rune copy, including completed entries. |
-| **Favorites** | Runewords you have starred. |
-
-**Missing** refers to checklist completion. A missing Runeword can still be craftable with the runes you own.
-
-| Sort | Order |
-| --- | --- |
-| **Default** | Uncompleted first, then required level and name. |
-| **Name** | Alphabetical. |
-| **Level** | Required character level. |
-| **Craftable first** | Craftable recipes first, then uncompleted entries and name within each group. |
-
-## 💾 Where Is My Progress Saved?
-
-Inventory, favorites, and completed Runewords are stored separately from the application.
-
-On Windows:
+On Windows, your data is stored outside the executable:
 
 ```text
 %LOCALAPPDATA%\D2RunewordTracker\user_data.json
 ```
 
-Usually:
+That file contains your rune counts, favorites, completed runewords, and v1.3 completion/refund data. Replacing the executable normally leaves your saved progress intact. For backups or transfers, close the program and copy `user_data.json` to a safe location.
 
-```text
-C:\Users\YourName\AppData\Local\D2RunewordTracker\user_data.json
-```
+**Do not upload your personal `user_data.json` to a public GitHub repository.**
 
-Replacing or updating the executable keeps this save file intact. To back up your progress, copy `user_data.json` somewhere safe while the tracker is closed.
+## 🖥️ Screenshots
 
-**☰ → Reset completed** clears the completion checklist after confirmation. It keeps inventory and favorites.
+Screenshots of the actual running application can be added here when available.
 
-## 🛠️ Running from Source
+<!-- Example after uploading an actual screenshot:
+![Main interface](assets/screenshots/main.png)
+-->
 
-You need Python with Tkinter installed. The application uses Python's standard library; no additional runtime packages are required.
+## 🛠️ Run from Python source
+
+The app uses Python and Tkinter (normally bundled with standard Python Windows installations). It requires no third-party Python packages at runtime.
 
 ```bash
 git clone https://github.com/sinnes7kx/D2-Runeword-Tracker.git
@@ -164,90 +91,36 @@ cd D2-Runeword-Tracker
 python D2RunewordTracker.py
 ```
 
-Keep `runewords.json` beside `D2RunewordTracker.py`. If available, place `zod.png` in the same folder for the application window icon.
+Keep `runewords.json` alongside the Python script. If you have `zod.png`, put it there for the application window icon.
 
-## 🔨 Building the Windows Executable
+## 🔨 Build a Windows executable
 
-Run these commands **on Windows**, from the project folder.
+Install PyInstaller:
 
-Install or update PyInstaller:
-
-```powershell
+```bat
 py -m pip install --upgrade pyinstaller
 ```
 
-Build a single executable with the database bundled:
+Then, from the project folder, run the following if both Zod icon files are present:
 
-```powershell
-py -m PyInstaller --onefile --windowed --add-data "runewords.json:." D2RunewordTracker.py
+```bat
+py -m PyInstaller --onefile --windowed --clean --noconfirm --name "D2RunewordTracker" --icon "zod.ico" --add-data "runewords.json;." --add-data "zod.png;." "D2RunewordTracker.py"
 ```
 
-If `zod.png` is available, include the window icon as well:
+The result will be in `dist\D2RunewordTracker.exe`. `zod.ico` sets the executable's Windows icon; `zod.png` sets the running application's window icon. Neither personal save data nor `user_data.json` should be bundled.
 
-```powershell
-py -m PyInstaller --onefile --windowed --add-data "runewords.json:." --add-data "zod.png:." D2RunewordTracker.py
-```
+## 🐛 Bugs and suggestions
 
-The executable is created at:
+Found an issue, incorrect rune recipe, or have a feature request? **[Open an issue](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues)** with steps to reproduce, the program version, and screenshots if relevant.
 
-```text
-dist\D2RunewordTracker.exe
-```
+## 💖 Support the project
 
-`zod.png` supplies the running application's window icon. To set the executable's icon in File Explorer as well, add `--icon "zod.ico"` to your build command if you have that `.ico` file.
-
-Personal `user_data.json` is not bundled with the release. Each user keeps their own progress separately.
-
-## 📦 Main Files
-
-| File | Purpose |
-| --- | --- |
-| `D2RunewordTracker.py` | Desktop application. |
-| `runewords.json` | Runeword recipes, bases, levels, and stats. |
-| `zod.png` | Optional application window icon. |
-| `screenshot.png` | Screenshot shown in this README. |
-| `README.md` | Project documentation. |
-
-## 📚 Runeword Data
-
-Runeword information is stored in the project's `runewords.json` database. Data has been compiled using publicly available Diablo II Runeword information, including references from [diablo2.io](https://diablo2.io/runewords/).
-
-Displayed recipes and stats depend on the bundled database. If you spot an incorrect entry, please [open an issue](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues) with the Runeword name and the correction.
-
-## 💖 Support the Project
-
-If you enjoy the tracker and want to support development:
-
-**[☕ Donate via PayPal](https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ)**
-
-Every donation is appreciated, and the application remains free to use.
-
-## 🐛 Bugs and Suggestions
-
-Found a bug or have an idea for a feature? [**Open an issue on GitHub →**](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues)
-
-For bugs, include what you were doing, what happened, and any error message or screenshot. Ideas and contributions are welcome.
+If the tracker is useful to you, you can [donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=H5QKDWLF92MXN). Donations are optional; the application is free to use.
 
 ## ⚠️ Disclaimer
 
-D2 Runeword Tracker is an independent fan-made project. It is **not affiliated with, endorsed by, or associated with Blizzard Entertainment**.
-
-Diablo, Diablo II, Diablo II: Resurrected, and related names and trademarks belong to their respective owners.
-
-This application does not modify the game client or game files.
+D2 Runeword Tracker is an independent fan-made utility, not affiliated with or endorsed by Blizzard Entertainment. Diablo, Diablo II, Diablo II: Resurrected, and related names and trademarks belong to their respective owners. This tracker does not modify game files.
 
 ---
 
-<div align="center">
-
-### ⚔️ D2 Runeword Tracker
-
 **Track the runes. Forge the words. Complete the Chronicle.**
-
-Made for the Diablo II community.
-
-[Download](https://github.com/sinnes7kx/D2-Runeword-Tracker/releases/latest)
-• [Issues](https://github.com/sinnes7kx/D2-Runeword-Tracker/issues)
-• [Donate](https://www.paypal.com/ncp/payment/KUM5TR7ETF4QJ)
-
-</div>
